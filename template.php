@@ -32,43 +32,18 @@
     <img src="Images/bk_hero_image.jpg" alt="" class="background_img">
     <header>
       <!-- NAV -->
-      <?php include './common/header.php'?>
-
-      <img src="Images/Imagen1.png" alt="image of soccer player" class="player animate__animated animate__fadeIn">
-      <img src="Images/billetes.png" alt="billetes" class="billetes">
-      <div class="hero_title">
-        <div class="separador">&nbsp;</div>
-        <!-- title -->
-        <div class="bienvenido">
-          <h1 class="bienvenidoA animate__animated animate__fadeInUp">Bienvenido</h1>
-          <h1 class="blog animate__animated animate__fadeInUp"><span class="small">al</span> BLOG <span
-              class="small">de</span></h1>
-          <h1 class="blog animate__animated animate__fadeInUp">Ganancias</h1>
-          <h1 class="small animate__animated animate__fadeInUp">Argentina</h1>
-          <!-- button invitation -->
-          <a class="boton_empeza animate__animated animate__fadeInRight"
-            href="https://cliente.gdenlinea.net/FernandaFermanelli/unete">Empezá ahora</a>
-
-        </div>
-      </div>
+      <?php include './header.php'?>
     </header>
   </div>
   <!-- MAIN -->
-  
+  <div class="wrapper_main">
+    <main>
+
+
+    </main>
+  </div>
   <!--      FOOTER         -->
-  <?php include "./common/footer.php" ?>
-  <!--      FLOAT BUTTONS         -->
-  <div class="btn-whatsapp">
-    <a href="https://api.whatsapp.com/send?phone=542604375615" target="_blank">
-      <img src="Images/whatsapp_icon.png" alt="whatsapp contact">
-    </a>
-  </div>
-  <div class="btn-facebook">
-    <a href="https://www.facebook.com/BLOG-De-Ganancias-Argentina-103371018178827/?modal=admin_todo_tour&notif_id=1599607581917840&notif_t=page_invite&ref=notif"
-      target="_blank">
-      <img src="Images/facebook_icon.png" alt="facebook contact">
-    </a>
-  </div>
+  <?php include './footer.php'?>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
