@@ -14,10 +14,10 @@
 
 
 <body>
-
-  
-  <?php include "../common/footer.php" ?>
   <h1>Royal q</h1>
+  <?php
+    include "../common/footer.php";
+  ?>
   
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
