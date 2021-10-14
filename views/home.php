@@ -14,7 +14,8 @@
 
 
 <body>
-  <?php include "../common/header.php"; ?>
+<?php include "../common/header.php"?>
+  <?php include "../common/footer.php"?>
   <h1>Royal q</h1>
   
   <!-- Optional JavaScript -->

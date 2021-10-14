@@ -30,7 +30,6 @@ switch ($action){
      
     default:
     echo "nada pasa";
-    phpinfo();
     include "./views/home.php";
     break;
  }
