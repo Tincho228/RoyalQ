@@ -1,3 +1,4 @@
+<?php set_include_path('/usr/lib/pear'); ?>
 <!doctype html>
 <html lang="en">
 <title>Royal Q</title>
@@ -14,8 +15,9 @@
 
 
 <body>
-<?php include "../common/header.php"?>
-  <?php include "../common/footer.php"?>
+
+  <?php include "../common/footer.php" ?>
+  <?php include "../common/header.php" ?>
   <h1>Royal q</h1>
   
   <!-- Optional JavaScript -->
