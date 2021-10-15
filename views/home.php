@@ -18,49 +18,28 @@
 </head>
 
 <body>
-  <div class="jumbotron bg-orange text-light text-center " style="padding:100px 25px">
-    <h1>Royalq - Mundial</h1>
-    <p>We specialize in blablabla</p>
-    <form class="form-inline justify-content-center">
-      <div class="input-group">
-        <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-        <div class="input-group-btn">
-          <button type="button" class="btn btn-danger">Subscribe</button>
+
+
+  <!-- Header -->
+
+  <div class="row">
+    <div class="col-sm-12 bg-orange text-light text-center " style="padding:100px 25px">
+      <h1>Royalq - Mundial</h1>
+      <p>We specialize in blablabla</p>
+      <form class="form-inline justify-content-center">
+        <div class="input-group">
+          <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-danger">Subscribe</button>
+          </div>
         </div>
-      </div>
-    </form>
-  </div>
-
-  <!-- <div class="container-fluid justify-content-center" style="padding:60px 50px">
-  <div class="col-sm-12 col-md-8">
-    <div class="row">
-      <div class="col-sm-8">
-        <h2>About Company Page</h2>
-        <h4>Lorem ipsum..</h4>
-        <p>Lorem ipsum..</p>
-        <button class="btn btn-default btn-lg">Get in Touch</button>
-      </div>
-      <div class="col-sm-4 text-center">
-        <i class="fas fa-signal" style="font-size: 200px;"></i>
-      </div>
+      </form>
     </div>
-    </div> 
+    </div>
   
+  <!-- About Us -->
 
-  <div class="container-fluid bg-grey" style="padding:60px 50px">
-    <div class="row">
-      <div class="col-sm-4 text-center">
-        <i class="fas fa-globe-americas" style="font-size: 200px;"></i>
-      </div>
-      <div class="col-sm-8">
-        <h2>Our Values</h2>
-        <h4><strong>MISSION:</strong> Our mission lorem ipsum..</h4>
-        <p><strong>VISION:</strong> Our vision Lorem ipsum..</p>
-      </div>
-    </div>
-  </div>
-  </div> -->
-  <div class="row justify-content-center">
+  <div class="row justify-content-center" style="margin-bottom:60px">
     <div class="col-sm-12 col-lg-8">
       <div class="row">
         <div class="col-sm-12 col-md-8 " style="padding: 30px 30px">
@@ -78,11 +57,13 @@
           <i class="fas fa-signal text-orange" style="font-size: 200px;"></i>
         </div>
       </div>
-
-
     </div>
   </div>
-  <div class="row justify-content-center bg-light">
+
+
+  <!-- Our Mission -->
+
+  <div class="row justify-content-center bg-light" style="padding:60px 0px">
     <div class="col-sm-12 col-lg-8">
       <div class="row">
         <div class="col-sm-12 col-md-4 text-center" style="padding:50px 60px">
@@ -90,7 +71,8 @@
         </div>
         <div class="col-sm-12 col-md-8 " style="padding: 50px 60px">
           <h2 style="margin-bottom:60px">Our Values</h2>
-          <h4 style="margin-bottom:40px"><strong>MISSION:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptate
+          <h4 style="margin-bottom:40px"><strong>MISSION:</strong> Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Reprehenderit voluptate
             blanditiis aliquam dolor, eum veritatis odit non error earum eius nesciunt nostrum saepe culpa, ducimus
             quod, facere doloremque necessitatibus voluptatum!</h4>
           <p><strong>VISION:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illum qui explicabo
@@ -101,15 +83,101 @@
       </div>
     </div>
   </div>
-  <div class="row justify-content-center">
-    <div class="col-sm-12 col-lg-8" ></div>
+
+
+
+  <!-- Services -->
+
+  <div class="row justify-content-center" style="padding: 60px 0px">
+    <div class="col-sm-12 col-lg-8 text-center">
+      <h2 class="text-center" style="margin-bottom: 40px;">SERVICIOS</h2>
+      <P class="text-center" style="margin-bottom: 40px;">Lo que ofrecemos</P>
+      <div class="row">
+        <div class="col-sm-4">
+          <i class="fas fa-power-off text-orange"></i>
+          <h4>POWER</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fas fa-heart text-orange"></i>
+          <h4>LOVE</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fas fa-lock text-orange"></i>
+          <h4>JOB DONE</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-sm-4">
+          <i class="fas fa-leaf text-orange"></i>
+          <h4>GREEN</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fas fa-certificate text-orange"></i>
+          <h4>CERTIFIED</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fas fa-wrench text-orange"></i>
+          <h4>HARD WORK</h4>
+          <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Costumer say -->
+  <div class="row justify-content-center" style="padding: 60px 0px">
+    <div class="col-sm-12 col-md-10 col-lg-7 text-center">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>My Caption Title (1st Image)</h5>
+              <p>The whole caption will only show up if the screen is at least medium size.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>My Caption Title (2nd Image)</h5>
+              <p>The whole caption will only show up if the screen is at least medium size.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>My Caption Title (3rd Image)</h5>
+              <p>The whole caption will only show up if the screen is at least medium size.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
   </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
   </script>
