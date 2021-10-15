@@ -1,3 +1,6 @@
-.orange {
+.bg-orange {
     background-color:#f4511e !important;
+}
+.text-orange {
+    color: #f4511e !important;
 }
