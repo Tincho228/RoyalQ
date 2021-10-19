@@ -1,40 +1,27 @@
 
-<nav class="navbar_container">
-    <ul class="list_nav">
-        <li>
-            <div>
-                <img class="navFace_icon" src="./Images/facebook_icon.png" alt="nav facebook icon">
-                <a class="link_nav link_face" target="_blank"
-                    href="https://www.facebook.com/BLOG-De-Ganancias-Argentina-103371018178827/?modal=admin_todo_tour&notif_id=1599607581917840&notif_t=page_invite&ref=notif">Seguinos
-                    en facebook</a>
-            </div>
+<div class="container-fluid">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark  bg-orange " style="padding:8px 15px;">
+  <div class="container">
+    <a class="navbar-brand" href="#">LOGO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li><a class="link_nav link_faq" href="#faq_section">Preguntas frecuentes</a></li>
-        <li> <a class="link_nav link_contact" data-toggle="modal" data-target="#exampleModal"
-                data-whatever="@getbootstrap">Contacto</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
         </li>
-        <li>
-            <?php
-                            // if is not logged in show My Account
-                            if(!isset($_SESSION['loggedin'])){
-                                echo '<a class="link_nav text-right link_admin" href="#" data-toggle="modal" data-target="#adminModal"><i
-                                class="fas fa-user-circle text-warning" style="margin-right:10px"></i>LogIn</a>';
-                            } elseif($_SESSION['loggedin']){
-                                echo '<a class="link_nav text-right link_admin" href="./contact.php?action=account"><i
-                                class="fas fa-user-circle text-warning" style="margin-right:10px"></i>Admin</a>';
-                            } else {
-                                echo '<a class="link_nav text-right link_admin" href="#" data-toggle="modal" data-target="#adminModal"><i
-                                class="fas fa-user-circle text-warning" style="margin-right:10px"></i>LogIn</a>';
-                                }
-                            ?>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
         </li>
-        <p class="text-right text-light" style="margin-bottom:0px; margin-top:10px; margin-right:15px;">
-            <div><?php
-                if (isset($_SESSION['message'])) {
-                    echo $_SESSION['message'];
-                } ?></div>
-        </p>
-    </ul>
-    <?php include 'contactUs.php';?>
-    <?php include 'admin.php';?>
+      </ul>
+      <span class="navbar-text">
+        Navbar text with an inline element
+      </span>
+    </div>
+  </div>
 </nav>
+</div>
