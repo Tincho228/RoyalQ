@@ -40,51 +40,54 @@
   </div>
 
   <!-- About Us -->
-<div class="container-fluid">
-  <div class="row justify-content-center" style="margin-bottom:60px">
-    <div class="col-sm-12 col-lg-8">
-      <div class="row">
-        <div class="col-sm-12 col-md-8 " style="padding: 30px 30px">
-          <h2 style="margin-bottom: 60px;">About Company Page</h2>
-          <h4 style="margin-bottom: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio numquam
-            pariatur tempore quasi sit
-            minima minus rerum beatae similique nostrum temporibus sequi ipsam, mollitia libero, velit facere officiis
-            facilis fuga?</h4>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, aliquid porro corrupti ut voluptates
-            eius laudantium tempora repudiandae fuga iste deserunt, dolores nesciunt eligendi. Iusto iste cum quae ipsa
-            numquam.</p>
-          <button class="btn btn-outline-secondary btn-lg">Get in Touch</button>
-        </div>
-        <div class="col-sm-12 col-md-4 text-center" style="padding:30px 30px">
-          <i class="fas fa-signal text-orange" style="font-size: 150px;"></i>
+  <div class="container-fluid">
+    <div class="row justify-content-center" style="margin-bottom:60px">
+      <div class="col-sm-12 col-lg-8">
+        <div class="row">
+          <div class="col-sm-12 col-md-8 " style="padding: 30px 30px">
+            <h2 style="margin-bottom: 60px;">About Company Page</h2>
+            <h4 style="margin-bottom: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio numquam
+              pariatur tempore quasi sit
+              minima minus rerum beatae similique nostrum temporibus sequi ipsam, mollitia libero, velit facere officiis
+              facilis fuga?</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, aliquid porro corrupti ut
+              voluptates
+              eius laudantium tempora repudiandae fuga iste deserunt, dolores nesciunt eligendi. Iusto iste cum quae
+              ipsa
+              numquam.</p>
+            <button class="btn btn-outline-secondary btn-lg">Get in Touch</button>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center" style="padding:30px 30px">
+            <i class="fas fa-signal text-orange" style="font-size: 150px;"></i>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
 
   <!-- Our Mission -->
-<div class="container-fluid">
-  <div class="row justify-content-center bg-light" style="padding:60px 0px">
-    <div class="col-sm-12 col-lg-8">
-      <div class="row">
-        <div class="col-sm-12 col-md-4 text-center" style="padding:50px 60px">
-          <i class="fas fa-globe-americas text-orange" style="font-size: 150px;"></i>
-        </div>
-        <div class="col-sm-12 col-md-8  " style="padding: 50px 60px">
-          <h2 style="margin-bottom:60px">Our Values</h2>
-          <h4 style="margin-bottom:40px"><strong>MISSION:</strong> Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Reprehenderit voluptate
-            blanditiis aliquam dolor, eum veritatis odit non error earum eius nesciunt nostrum saepe culpa, ducimus
-            quod, facere doloremque necessitatibus voluptatum!</h4>
-          <p><strong>VISION:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illum qui explicabo
-            aut ea consequatur eius nam doloribus magnam, magni pariatur quam quaerat, soluta assumenda minus nihil
-            saepe optio fugit. Eius, dolorum iusto minima ipsum nobis explicabo dolor deleniti harum.</p>
-          <button class="btn btn-outline-secondary btn-lg">Get in Touch</button>
+  <div class="container-fluid">
+    <div class="row justify-content-center bg-light" style="padding:60px 0px">
+      <div class="col-sm-12 col-lg-8">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 text-center" style="padding:50px 60px">
+            <i class="fas fa-globe-americas text-orange" style="font-size: 150px;"></i>
+          </div>
+          <div class="col-sm-12 col-md-8  " style="padding: 50px 60px">
+            <h2 style="margin-bottom:60px">Our Values</h2>
+            <h4 style="margin-bottom:40px"><strong>MISSION:</strong> Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Reprehenderit voluptate
+              blanditiis aliquam dolor, eum veritatis odit non error earum eius nesciunt nostrum saepe culpa, ducimus
+              quod, facere doloremque necessitatibus voluptatum!</h4>
+            <p><strong>VISION:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illum qui
+              explicabo
+              aut ea consequatur eius nam doloribus magnam, magni pariatur quam quaerat, soluta assumenda minus nihil
+              saepe optio fugit. Eius, dolorum iusto minima ipsum nobis explicabo dolor deleniti harum.</p>
+            <button class="btn btn-outline-secondary btn-lg">Get in Touch</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
 
 
@@ -179,10 +182,7 @@
     </div>
   </div>
 
-
-
   <!--  Contact section-->
-
   <div class="container-fluid bg-light">
     <h2 class="text-center">CONTACT</h2>
     <div class="row">
