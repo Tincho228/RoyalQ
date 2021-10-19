@@ -22,9 +22,9 @@
   <?php include "./common/header.php" ?>
 
   <!-- Hero -->
-  <div class="container-fluid">
+  <div class="container-fluid ">
     <div class="row">
-      <div class="col bg-orange text-light text-center " style="padding:100px 25px">
+      <div class="col bg-highlight text-light text-center " style="padding:100px 25px">
         <h1>Bot Trading</h1>
         <p>A la vanguardia</p>
         <form class="form-inline justify-content-center">
@@ -58,7 +58,7 @@
             <button class="btn btn-outline-secondary btn-lg">Get in Touch</button>
           </div>
           <div class="col-sm-12 col-md-4 text-center" style="padding:30px 30px">
-            <i class="fas fa-signal text-orange" style="font-size: 150px;"></i>
+            <i class="fas fa-signal text-highlight" style="font-size: 150px;"></i>
           </div>
         </div>
       </div>
@@ -70,8 +70,8 @@
     <div class="row justify-content-center bg-light" style="padding:60px 0px">
       <div class="col-sm-12 col-lg-8">
         <div class="row">
-          <div class="col-sm-12 col-md-4 text-center" style="padding:50px 60px">
-            <i class="fas fa-globe-americas text-orange" style="font-size: 150px;"></i>
+          <div class="col-sm-12 col-md-4 text-center" style="padding:30px">
+            <i class="fas fa-globe-americas text-highlight" style="font-size: 150px;"></i>
           </div>
           <div class="col-sm-12 col-md-8  " style="padding: 50px 60px">
             <h2 style="margin-bottom:60px">Our Values</h2>
