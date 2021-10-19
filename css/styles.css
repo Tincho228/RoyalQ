@@ -1,12 +1,12 @@
 :root {
-    --first-color: slateblue;
+    --first-color: #395698;
     --second-color: #f4511e;
   }
 
 
 .bg-highlight {
-    /*background-color:#f4511e !important;*/
-    background-color:var(--first-color) !important;
+    background-image:url("../images/bg-hero.jpg") !important;
+    /*background-color:var(--first-color) !important;*/
 }
 .text-highlight {
     /*color: #f4511e !important;*/

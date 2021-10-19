@@ -38,10 +38,9 @@
       </div>
     </div>
   </div>
-
   <!-- About Us -->
-  <div class="container-fluid">
-    <div class="row justify-content-center" style="margin-bottom:60px">
+  <div class="container-fluid" style="padding-top:60px;">
+    <div class="row justify-content-center" style="margin-bottom:60px;">
       <div class="col-sm-12 col-lg-8">
         <div class="row">
           <div class="col-sm-12 col-md-8 " style="padding: 30px 30px">
@@ -99,17 +98,17 @@
         <P class="text-center" style="margin-bottom: 40px;">Lo que ofrecemos</P>
         <div class="row">
           <div class="col-sm-4">
-            <i class="fas fa-power-off text-orange"></i>
+            <i class="fas fa-power-off text-highlight"></i>
             <h4>POWER</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
           <div class="col-sm-4">
-            <i class="fas fa-heart text-orange"></i>
+            <i class="fas fa-heart text-highlight"></i>
             <h4>LOVE</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
           <div class="col-sm-4">
-            <i class="fas fa-lock text-orange"></i>
+            <i class="fas fa-lock text-highlight"></i>
             <h4>JOB DONE</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
@@ -117,17 +116,17 @@
         <br><br>
         <div class="row">
           <div class="col-sm-4">
-            <i class="fas fa-leaf text-orange"></i>
+            <i class="fas fa-leaf text-highlight"></i>
             <h4>GREEN</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
           <div class="col-sm-4">
-            <i class="fas fa-certificate text-orange"></i>
+            <i class="fas fa-certificate text-highlight"></i>
             <h4>CERTIFIED</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
           <div class="col-sm-4">
-            <i class="fas fa-wrench text-orange"></i>
+            <i class="fas fa-wrench text-highlight"></i>
             <h4>HARD WORK</h4>
             <p>Lorem ipsum dolor sit amet..</p>
           </div>
