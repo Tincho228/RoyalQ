@@ -24,7 +24,7 @@
   <!-- Header -->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-12 bg-orange text-light text-center " style="padding:100px 25px">
+      <div class="col bg-orange text-light text-center " style="padding:100px 25px">
         <h1>Royalq - Mundial</h1>
         <p>We specialize in blablabla</p>
         <form class="form-inline justify-content-center">
@@ -40,7 +40,7 @@
   </div>
 
   <!-- About Us -->
-
+<div class="container-fluid">
   <div class="row justify-content-center" style="margin-bottom:60px">
     <div class="col-sm-12 col-lg-8">
       <div class="row">
@@ -61,7 +61,7 @@
       </div>
     </div>
   </div>
-
+  </div>
 
   <!-- Our Mission -->
 <div class="container-fluid">
