@@ -21,12 +21,12 @@
   <!-- Nav bar -->
   <?php include "./common/header.php" ?>
 
-  <!-- Header -->
+  <!-- Hero -->
   <div class="container-fluid">
     <div class="row">
       <div class="col bg-orange text-light text-center " style="padding:100px 25px">
-        <h1>Royalq - Mundial</h1>
-        <p>We specialize in blablabla</p>
+        <h1>Bot Trading</h1>
+        <p>A la vanguardia</p>
         <form class="form-inline justify-content-center">
           <div class="input-group">
             <input type="email" class="form-control" size="50" placeholder="Email Address" required>

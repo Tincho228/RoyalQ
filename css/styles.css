@@ -1,7 +1,9 @@
 .bg-orange {
-    background-color:#f4511e !important;
+    /*background-color:#f4511e !important;*/
+    background-color:slateblue !important;
 }
 .text-orange {
-    color: #f4511e !important;
+    /*color: #f4511e !important;*/
+    color: slateblue !important;
 }
 
