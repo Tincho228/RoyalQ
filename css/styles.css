@@ -1,13 +1,18 @@
 :root {
     --first-color: #395698;
     --second-color: #f4511e;
+    --third-color: #344c94 ;
   }
 
+.bg-third-color {
+    background-color: var(--third-color) !important;
+}
 
 .bg-highlight {
     background-image:url("../images/bg-hero.jpg") !important;
     background-position:bottom;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .text-highlight {
@@ -24,10 +29,4 @@
     transition: .5s;
     padding:5px !important;
     margin:5px 0px !important;
-}
-@media (max-width: 991px){
-    .navbar-collapse {
-    background-color: #9000f996 !important;
-    padding: 10px;
-}
 }

@@ -91,7 +91,7 @@
 
 
   <!-- Services -->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row justify-content-center" style="padding: 60px 0px">
       <div class="col-sm-12 col-lg-8 text-center">
         <h2 class="text-center" style="margin-bottom: 40px;">SERVICIOS</h2>
@@ -136,7 +136,7 @@
   </div>
 
   <!-- Costumer say -->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row justify-content-center" style="padding: 60px 0px">
       <div class="col-sm-12 col-md-10 col-lg-7 text-center">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -184,6 +184,8 @@
   <!--  Contact section-->
   <div class="container-fluid bg-light">
     <h2 class="text-center">CONTACT</h2>
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-lg-8">
     <div class="row">
       <div class="col-sm-5">
         <p>Contact us and we'll get back to you within 24 hours.</p>
@@ -208,6 +210,8 @@
         </div>
       </div>
     </div>
+    </div>
+  </div>
   </div>
 
   <!-- Optional JavaScript -->
