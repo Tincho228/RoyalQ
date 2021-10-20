@@ -7,24 +7,24 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active-highlight" aria-current="page" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fas fa-envelope-open-text"></i> Contactanos</a>
+          <a class="nav-link text-light" href="#"><i class="fas fa-envelope-open-text"></i> Contactanos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="far fa-question-circle"></i> Preguntas frecuentes</a>
+          <a class="nav-link text-light" href="#"><i class="far fa-question-circle"></i> Preguntas frecuentes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fas fa-box-open"></i> Paquetes</a>
+          <a class="nav-link text-light" href="#"><i class="fas fa-box-open"></i> Paquetes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+          <a class="nav-link text-light" href="#"><i class="fab fa-whatsapp"></i> Whatsapp</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fab fa-facebook"></i> Seguinos</a>
+          <a class="nav-link text-light" href="#"><i class="fab fa-facebook"></i> Seguinos</a>
         </li>
       </ul>
       <!-- <span class="navbar-text">

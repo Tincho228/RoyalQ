@@ -14,4 +14,20 @@
     
     color: var(--first-color) !important;
 }
-
+.navbar-toggler {
+    border-color:#ffffff !important;
+}
+.active-highlight {
+    color:black !important;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    transition: .5s;
+    padding:5px !important;
+    margin:5px 0px !important;
+}
+@media (max-width: 991px){
+    .navbar-collapse {
+    background-color: #9000f996 !important;
+    padding: 10px;
+}
+}
