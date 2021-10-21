@@ -214,6 +214,11 @@
   </div>
   </div>
 
+
+
+  <!--  Footer  -->
+  <?php include "./common/footer.php" ?>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

@@ -1,30 +1,26 @@
 <footer>
-    <div class="background_footer">
-      <div class="wrapper_footer">
-        <!-- title -->
-        <div class="footerHeader_container">
-          <div class="headerTitle_box">
-            <h1>
-              <span class="headerTitle_size">Deja</span> que<br>
-              tus <span class="headerTitle_size">Ganancias</span> escalen por vos
-            </h1>
-
+  <div class="container-fluid bg-first-color"  style="padding:60px 0px">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-lg-8">
+        <div class="row text-light" style="margin-bottom: 100px;">
+          <div class="col-sm-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta modi consequuntur tenetur fugiat
+            laboriosam perspiciatis similique eos quidem illo.
           </div>
-          <div class="headerSeparator_box">&nbsp;</div>
+          <div class="col-sm-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta modi consequuntur tenetur fugiat
+            laboriosam perspiciatis similique eos quidem illo.
+          </div>
+          <div class="col-sm-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta modi consequuntur tenetur fugiat
+            laboriosam perspiciatis similique eos quidem illo.
+          </div>
+          <div class="col-sm-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta modi consequuntur tenetur fugiat
+            laboriosam perspiciatis similique eos quidem illo.
+          </div>
         </div>
-        <!-- button -->
-        <a class="boton_footer text-light" href="https://cliente.gdenlinea.net/FernandaFermanelli/unete">Empezá
-          ahora</a>
-        <!-- logo -->
-        <div class="logoTitle_box">
-          <img src="./Images/Logo Favicon.png" alt="logo de GD">
-          <h2 class="logoTitle">Blog de Ganancias Argentina</h2>
-        </div>
-        <!-- mail contact -->
-        <a class="footerMail_link"
-          href="mailto:consultas@ganancias-deportivas.com.ar">consultas@ganancias-deportivas.com.ar</a>
-        <!-- copyright -->
-        <p class="footerCopyright">&copy;2020copyright | Todos los derechos reservados </p>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>

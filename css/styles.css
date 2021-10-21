@@ -3,7 +3,9 @@
     --second-color: #f4511e;
     --third-color: #344c94 ;
   }
-
+.bg-first-color {
+    background-color:var(--first-color);
+}
 .bg-third-color {
     background-color: var(--third-color) !important;
 }
