@@ -36,7 +36,7 @@
           <div class="input-group">
             <input type="email" class="form-control" size="50" placeholder="Email Address" required>
             <div class="input-group-btn">
-              <button type="button" class="btn btn-danger">Subscribe</button>
+              <button type="button" class="btn btn-danger">Subscribite</button>
             </div>
           </div>
         </form>
@@ -44,25 +44,21 @@
     </div>
   </div>
   <!-- About Us -->
-  <div class="container-fluid" style="padding-top:60px;">
+  <div class="container-fluid" style="padding-top:40px;">
     <div class="row justify-content-center" style="margin-bottom:60px;">
       <div class="col-sm-12 col-lg-8">
         <div class="row">
           <div class="col-sm-12 col-md-8 " style="padding: 30px 30px">
-            <h2 style="margin-bottom: 60px;">About Company Page</h2>
-            <h4 style="margin-bottom: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio numquam
-              pariatur tempore quasi sit
-              minima minus rerum beatae similique nostrum temporibus sequi ipsam, mollitia libero, velit facere officiis
-              facilis fuga?</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, aliquid porro corrupti ut
-              voluptates
-              eius laudantium tempora repudiandae fuga iste deserunt, dolores nesciunt eligendi. Iusto iste cum quae
-              ipsa
-              numquam.</p>
-            <button class="btn btn-outline-secondary btn-lg">Get in Touch</button>
+            <h2 style="margin-bottom: 30px;">Que es Royal Q?</h2>
+            <h4 style="margin-bottom: 40px;">RoyalQ trading BOT es un programa informático basado en una serie de
+              señales de trading de criptomonedas que ayudan a determinar si comprar o vender un par de criptomonedas en
+              un momento dado. Fue desarrollado en el pais de China por una empresa que se ha extendido ampliamente en
+              los últimos
+              dos años. Recientemente también ha comenzado a ser conocido por nosotros.</p>
+              <button class="btn btn-outline-secondary btn-lg">Contactanos</button>
           </div>
           <div class="col-sm-12 col-md-4 text-center" style="padding:30px 30px">
-            <i class="fas fa-signal text-highlight" style="font-size: 150px;"></i>
+            <img src="./images/acerca-de.jpg" alt="" class="img-fluid">
           </div>
         </div>
       </div>
@@ -75,19 +71,25 @@
       <div class="col-sm-12 col-lg-8">
         <div class="row">
           <div class="col-sm-12 col-md-4 text-center" style="padding:30px">
-            <i class="fas fa-globe-americas text-highlight" style="font-size: 150px;"></i>
+            <img src="./images/save-time.jpg" alt="image of ahorre tiempo" class="img-fluid">
+            <!-- <i class="fas fa-globe-americas text-highlight" style="font-size: 150px;"></i> -->
           </div>
           <div class="col-sm-12 col-md-8  " style="padding: 50px 60px">
-            <h2 style="margin-bottom:60px">Our Values</h2>
-            <h4 style="margin-bottom:40px"><strong>MISSION:</strong> Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Reprehenderit voluptate
-              blanditiis aliquam dolor, eum veritatis odit non error earum eius nesciunt nostrum saepe culpa, ducimus
-              quod, facere doloremque necessitatibus voluptatum!</h4>
-            <p><strong>VISION:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illum qui
-              explicabo
-              aut ea consequatur eius nam doloribus magnam, magni pariatur quam quaerat, soluta assumenda minus nihil
-              saepe optio fugit. Eius, dolorum iusto minima ipsum nobis explicabo dolor deleniti harum.</p>
-            <button class="btn btn-outline-secondary btn-lg">Get in Touch</button>
+            <h2 style="margin-bottom:60px"><i class="fas fa-history"></i> Ahorre tiempo y dinero</h2>
+            <h4 style="margin-bottom:40px"><strong>MISSION:</strong> Los bots comerciales como RoyalQ Crypto a menudo
+              pueden ahorrarle mucho tiempo y son más baratos que contratar expertos humanos. La verdad es que se sabe
+              que las criptomonedas son extremadamente volátiles y la mayoría de las veces los precios fluctúan
+              drásticamente incluso en minutos. Por lo tanto, en muchos casos, los comerciantes no pueden reaccionar con
+              la suficiente rapidez a los cambios en el precio de mercado para lograr su objetivo comercial.
+            </h4>
+            <p><strong>MODELO AUTOMATICO:</strong> Los robots como RoyalQ están diseñados para automatizar el comercio de
+              criptomonedas en su nombre. Estos bots ayudan a automatizar el análisis y la interpretación de las
+              estadísticas del mercado.
+              Pueden recopilar datos de mercado, interpretarlos, calcular el riesgo de mercado potencial y ejecutar la
+              compra o venta de criptomonedas en su nombre. Piense en ello como contratar a un experto en comercio de
+              criptomonedas para que realice su comercio de criptomonedas mientras puede sentarse y ver crecer sus
+              ganancias.</p>
+            <button class="btn btn-outline-secondary btn-lg">Contactanos</button>
           </div>
         </div>
       </div>
@@ -99,41 +101,41 @@
   <div class="container-fluid">
     <div class="row justify-content-center" style="padding: 60px 0px">
       <div class="col-sm-12 col-lg-8 text-center">
-        <h2 class="text-center" style="margin-bottom: 40px;">SERVICIOS</h2>
-        <P class="text-center" style="margin-bottom: 40px;">Lo que ofrecemos</P>
+        <h2 class="text-center" style="margin-bottom: 40px;">NUESTROS SERVICIOS</h2>
+        <P class="text-center" style="margin-bottom: 40px;">Te ofrecemos</P>
         <div class="row">
           <div class="col-sm-4">
             <i class="fas fa-power-off text-highlight"></i>
-            <h4>POWER</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
+            <h4>Soporte</h4>
+            <p>Instalacion y programacion remota las 24 hs.</p>
           </div>
           <div class="col-sm-4">
             <i class="fas fa-heart text-highlight"></i>
-            <h4>LOVE</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
+            <h4>Capacitacion</h4>
+            <p>Las mejores estrategias personalizadas</p>
           </div>
           <div class="col-sm-4">
             <i class="fas fa-lock text-highlight"></i>
-            <h4>JOB DONE</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
+            <h4>Asesoramiento</h4>
+            <p>LLevar la inversion a un nivel superior</p>
           </div>
         </div>
         <br><br>
         <div class="row">
           <div class="col-sm-4">
             <i class="fas fa-leaf text-highlight"></i>
-            <h4>GREEN</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
+            <h4>Grupos</h4>
+            <p>Tips y estrategias de los mejores Traders</p>
           </div>
           <div class="col-sm-4">
             <i class="fas fa-certificate text-highlight"></i>
-            <h4>CERTIFIED</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
+            <h4>Seguridad</h4>
+            <p>Proteccion sobre la inversion</p>
           </div>
           <div class="col-sm-4">
             <i class="fas fa-wrench text-highlight"></i>
-            <h4>HARD WORK</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
+            <h4>Control</h4>
+            <p>Observá tus ganancias diarias desde la app</p>
           </div>
         </div>
       </div>
@@ -191,32 +193,32 @@
     <h2 class="text-center">CONTACT</h2>
     <div class="row justify-content-center">
       <div class="col-sm-12 col-lg-8">
-    <div class="row">
-      <div class="col-sm-5">
-        <p>Contact us and we'll get back to you within 24 hours.</p>
-        <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-        <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-        <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
-      </div>
-      <div class="col-sm-7">
         <div class="row">
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          <div class="col-sm-5">
+            <p>Contact us and we'll get back to you within 24 hours.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
           </div>
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-          </div>
-        </div>
-        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-        <div class="row">
-          <div class="col-sm-12 form-group">
-            <button class="btn btn-default pull-right" type="submit">Send</button>
+          <div class="col-sm-7">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <button class="btn btn-default pull-right" type="submit">Send</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
-  </div>
   </div>
 
 
