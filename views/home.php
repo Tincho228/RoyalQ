@@ -15,6 +15,10 @@
 
   <!-- Fontawesome CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 </head>
 
 <body>
@@ -25,7 +29,8 @@
   <div class="container-fluid ">
     <div class="row">
       <div class="col bg-highlight text-light text-center " style="padding:100px 25px">
-        <h1>Bot Trading</h1>
+        <h1 class="animate__animated animate__fadeInUp">Bienvenido a la experiencia</h1>
+        <h1 class="animate__animated animate__fadeInUp">Bot Trading</h1>
         <p>A la vanguardia</p>
         <form class="form-inline justify-content-center">
           <div class="input-group">

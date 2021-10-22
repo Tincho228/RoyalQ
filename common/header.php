@@ -2,7 +2,10 @@
 <div class="container-fluid">
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-third-color" style="padding:8px 15px;">
   <div class="container">
-    <a class="navbar-brand" href="#">ROYALQ-MUNDIAL</a>
+    
+    <a class="navbar-brand" href="#">
+      <img src="./images/logo_azul.png" alt="logo_image" style="width:50px">  
+      ROYALQ-MUNDIAL</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
