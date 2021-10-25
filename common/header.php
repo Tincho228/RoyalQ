@@ -14,14 +14,9 @@
         <li class="nav-item">
           <a class="nav-link active-highlight" aria-current="page" href="#">Inicio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#"><i class="fas fa-envelope-open-text"></i> Contactanos</a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link text-light" href="#"><i class="far fa-question-circle"></i> Preguntas frecuentes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#"><i class="fas fa-box-open"></i> Paquetes</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="#"><i class="fab fa-whatsapp"></i> Whatsapp</a>
@@ -29,6 +24,14 @@
         <li class="nav-item">
           <a class="nav-link text-light" href="#"><i class="fab fa-facebook"></i> Seguinos</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"><i class="fas fa-envelope-open-text"></i> Contactanos</a>
+        </li>
+
+
+
+        <!--  Admin link  -->
+
         <li class="nav-item">
           <a class="nav-link text-light" href="#"><i class="fas fa-user"></i> Log in</a>
         </li>

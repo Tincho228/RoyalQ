@@ -21,8 +21,9 @@
     
     color: var(--first-color) !important;
 }
+
 .navbar-toggler {
-    border-color:#ffffff !important;
+    border-color:transparent !important;
 }
 .active-highlight {
     color:black !important;
