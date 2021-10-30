@@ -22,25 +22,66 @@
 </head>
 
 <body>
-  <!-- Nav bar -->
-  <?php include "./common/header.php" ?>
+
 
   <!-- Hero -->
-  <div class="container-fluid ">
+  <div class="container-fluid bg-highlight">
+    <!-- Nav bar -->
+    <?php include "./common/header.php" ?>
+    <!-- Hero section -->
     <div class="row">
-      <div class="col bg-highlight text-light text-center " style="padding:100px 25px">
-        <h1 class="animate__animated animate__fadeInUp">Bienvenido a la experiencia</h1>
-        <h1 class="animate__animated animate__fadeInUp">Bot Trading</h1>
-        <p>A la vanguardia</p>
-        <form class="form-inline justify-content-center">
-          <div class="input-group">
-            <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-            <div class="input-group-btn">
-              <button type="button" class="btn btn-danger">Subscribite</button>
-            </div>
-          </div>
-        </form>
+      <div class="col  text-light text-center " style="padding:50px 25px">
+        <h1 class="animate__animated animate__fadeInUp">Royal Q Robot</h1>
+        <h1 class="animate__animated animate__fadeInUp">Trade Binance</h1>
+        <button type="button" class="btn btn-violet" style="margin-top:25px;">Subscribite</button>
       </div>
+    </div>
+    <div class="row">
+      <div class="container-fluid">
+      <div class="row justify-content-center" style="padding: 60px 0px">
+        <div class="col-sm-12 col-md-10 col-lg-7 text-center">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active">
+                <img class="d-block w-50" src="./images/app-image.png" alt="First slide">
+                
+                <div class="carousel-caption  d-md-block">
+                  <h5 class="text-right">My Caption Title (1st Image)</h5>
+                  <p>The whole caption will only show up if the screen is at least medium size.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50" src="./images/app-image.png" alt="Second slide">
+                <div class="carousel-caption  d-md-block">
+                  <h5>My Caption Title (2nd Image)</h5>
+                  <p>The whole caption will only show up if the screen is at least medium size.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50" src="./images/app-image.png" alt="Third slide">
+                <div class="carousel-caption  d-md-block">
+                  <h5>My Caption Title (3rd Image)</h5>
+                  <p>The whole caption will only show up if the screen is at least medium size.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </div>
   <!-- About Us -->
@@ -138,146 +179,148 @@
             </div>
           </div>
         </div>
-        <div class="row justify-content-center" style="padding:1.25rem; border:1px solid rgba(0,0,0,.125); width:18rem; margin:auto ">
-        
-          
+        <div class="row justify-content-center"
+          style="padding:1.25rem; border:1px solid rgba(0,0,0,.125); width:18rem; margin:auto ">
+
+
           <h3 class="text-center text-highlight" style="margin-right: 20px">Pedi la ayuda de un asesor</h3>
           <button class="btn btn-primary">Solicitar ayuda</button>
-          
-        
-      </div>
-    </div>
-  </div>
 
-  <!-- Services -->
-  <div class="container-fluid">
-    <div class="row justify-content-center" style="padding: 30px 0px">
-      <div class="col-sm-12 col-lg-8 text-center">
-        <h2 class="text-center" style="margin-bottom: 30px;">Nuestros Servicios</h2>
-        <P class="text-center" style="margin-bottom: 40px;">Te ofrecemos</P>
-        <div class="row">
-          <div class="col-sm-4">
-            <i class="fas fa-power-off text-highlight"></i>
-            <h4>Soporte</h4>
-            <p>Instalacion y programacion remota las 24 hs.</p>
-          </div>
-          <div class="col-sm-4">
-            <i class="fas fa-heart text-highlight"></i>
-            <h4>Capacitacion</h4>
-            <p>Las mejores estrategias personalizadas</p>
-          </div>
-          <div class="col-sm-4">
-            <i class="fas fa-lock text-highlight"></i>
-            <h4>Asesoramiento</h4>
-            <p>LLevar la inversion a un nivel superior</p>
-          </div>
-        </div>
-        <br><br>
-        <div class="row">
-          <div class="col-sm-4">
-            <i class="fas fa-leaf text-highlight"></i>
-            <h4>Grupos</h4>
-            <p>Tips y estrategias de los mejores Traders</p>
-          </div>
-          <div class="col-sm-4">
-            <i class="fas fa-certificate text-highlight"></i>
-            <h4>Seguridad</h4>
-            <p>Proteccion sobre la inversion</p>
-          </div>
-          <div class="col-sm-4">
-            <i class="fas fa-wrench text-highlight"></i>
-            <h4>Control</h4>
-            <p>Observá tus ganancias diarias desde la app</p>
-          </div>
+
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Costumer say -->
-  <div class="container-fluid">
-    <div class="row justify-content-center" style="padding: 60px 0px">
-      <div class="col-sm-12 col-md-10 col-lg-7 text-center">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="First slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>My Caption Title (1st Image)</h5>
-                <p>The whole caption will only show up if the screen is at least medium size.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="Second slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>My Caption Title (2nd Image)</h5>
-                <p>The whole caption will only show up if the screen is at least medium size.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="Third slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>My Caption Title (3rd Image)</h5>
-                <p>The whole caption will only show up if the screen is at least medium size.</p>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--  Contact section-->
-  <div class="container-fluid bg-light">
-    <h2 class="text-center">Contacto</h2>
-    <div class="row justify-content-center">
-      <div class="col-sm-12 col-lg-8">
-        <div class="row">
-          <div class="col-sm-5">
-            <p>Un asesor te respondera a la brevedad</p>
-            <p><span class="glyphicon glyphicon-map-marker"></span> Argentina, AR</p>
-            <p><span class="glyphicon glyphicon-phone"></span>+54 9 260 4265856</p>
-            <p><span class="glyphicon glyphicon-envelope"></span> consulta@royalq-mundial.com</p>
-          </div>
-          <div class="col-sm-7">
-            <div class="row">
-              <div class="col-sm-6 form-group">
-                <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
-              </div>
-              <div class="col-sm-6 form-group">
-                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-              </div>
-              <div class="col-sm-6 form-group">
-                <input class="form-control" id="phone" name="email" placeholder="Celular" type="text" required>
-              </div>
-            </div>
-
-          </div>
-
-
-          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+    <!-- Services -->
+    <div class="container-fluid">
+      <div class="row justify-content-center" style="padding: 30px 0px">
+        <div class="col-sm-12 col-lg-8 text-center">
+          <h2 class="text-center" style="margin-bottom: 30px;">Nuestros Servicios</h2>
+          <P class="text-center" style="margin-bottom: 40px;">Te ofrecemos</P>
           <div class="row">
-            <div class="col-sm-12 form-group">
-              <button class="btn btn-default pull-right" type="submit">Send</button>
+            <div class="col-sm-4">
+              <i class="fas fa-power-off text-highlight"></i>
+              <h4>Soporte</h4>
+              <p>Instalacion y programacion remota las 24 hs.</p>
+            </div>
+            <div class="col-sm-4">
+              <i class="fas fa-heart text-highlight"></i>
+              <h4>Capacitacion</h4>
+              <p>Las mejores estrategias personalizadas</p>
+            </div>
+            <div class="col-sm-4">
+              <i class="fas fa-lock text-highlight"></i>
+              <h4>Asesoramiento</h4>
+              <p>LLevar la inversion a un nivel superior</p>
+            </div>
+          </div>
+          <br><br>
+          <div class="row">
+            <div class="col-sm-4">
+              <i class="fas fa-leaf text-highlight"></i>
+              <h4>Grupos</h4>
+              <p>Tips y estrategias de los mejores Traders</p>
+            </div>
+            <div class="col-sm-4">
+              <i class="fas fa-certificate text-highlight"></i>
+              <h4>Seguridad</h4>
+              <p>Proteccion sobre la inversion</p>
+            </div>
+            <div class="col-sm-4">
+              <i class="fas fa-wrench text-highlight"></i>
+              <h4>Control</h4>
+              <p>Observá tus ganancias diarias desde la app</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+
+    <!-- Costumer say -->
+    <div class="container-fluid">
+      <div class="row justify-content-center" style="padding: 60px 0px">
+        <div class="col-sm-12 col-md-10 col-lg-7 text-center">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="First slide">
+                <div class="carousel-caption  d-md-block">
+                  <button class="btn btn-danger">click</button>
+                  <h5>My Caption Title (1st Image)</h5>
+                  <p>The whole caption will only show up if the screen is at least medium size.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="Second slide">
+                <div class="carousel-caption  d-md-block">
+                  <h5>My Caption Title (2nd Image)</h5>
+                  <p>The whole caption will only show up if the screen is at least medium size.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="Third slide">
+                <div class="carousel-caption  d-md-block">
+                  <h5>My Caption Title (3rd Image)</h5>
+                  <p>The whole caption will only show up if the screen is at least medium size.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Contact section-->
+    <div class="container-fluid bg-light">
+      <h2 class="text-center">Contacto</h2>
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-lg-8">
+          <div class="row">
+            <div class="col-sm-5">
+              <p>Un asesor te respondera a la brevedad</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Argentina, AR</p>
+              <p><span class="glyphicon glyphicon-phone"></span>+54 9 260 4265856</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> consulta@royalq-mundial.com</p>
+            </div>
+            <div class="col-sm-7">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="phone" name="email" placeholder="Celular" type="text" required>
+                </div>
+              </div>
+
+            </div>
+
+
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <button class="btn btn-default pull-right" type="submit">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 

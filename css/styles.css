@@ -21,6 +21,13 @@
     
     color: var(--first-color) !important;
 }
+.hamburguer-menu {
+    display:block;
+    width: 35px;
+    height: 5px;
+    background-color: whitesmoke;
+    margin: 6px 0;
+}
 
 .navbar-toggler {
     border-color:transparent !important;
@@ -32,4 +39,10 @@
     transition: .5s;
     padding:5px !important;
     margin:5px 0px !important;
+}
+.btn-violet {
+    background-color:rgb(112,48,160) !important;
+    border: 2px solid red !important;
+    color: white !important;
+    border-radius:25px !important;
 }
