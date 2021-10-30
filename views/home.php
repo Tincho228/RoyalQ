@@ -28,14 +28,15 @@
   <div class="container-fluid bg-highlight">
     <!-- Nav bar -->
     <?php include "./common/header.php" ?>
-    <!-- Hero section -->
-    <div class="row">
+    <!-- Main title -->
+    <div class="row font-title">
       <div class="col  text-light text-center " style="padding:50px 25px">
         <h1 class="animate__animated animate__fadeInUp">Royal Q Robot</h1>
-        <h1 class="animate__animated animate__fadeInUp">Trade Binance</h1>
-        <button type="button" class="btn btn-violet" style="margin-top:25px;">Subscribite</button>
+        <h1 class="animate__animated animate__fadeInUp" >Trade <span style="color:#ffd85d;">Binance</span></h1>
+        <button type="button" class="btn btn-violet font-body " style="margin-top:25px;">Registrate Ahora</button>
       </div>
     </div>
+    <!-- Carousel app -->
     <div class="row">
       <div class="container-fluid">
       <div class="row justify-content-center" style="padding: 60px 0px">
@@ -46,27 +47,35 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner text-center">
+            <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-50" src="./images/app-image.png" alt="First slide">
-                
-                <div class="carousel-caption  d-md-block">
-                  <h5 class="text-right">My Caption Title (1st Image)</h5>
-                  <p>The whole caption will only show up if the screen is at least medium size.</p>
+                <div class="row">
+                  <div class="col-6">  
+                    <img class="d-block w-100" src="./images/app-image.png" alt="First slide">
+                  </div>
+                  <div class="col-6 d-flex align-items-center">  
+                    <h2 class="font-body text-light text-left">Trabaje desde su casa</h2>
+                  </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-50" src="./images/app-image.png" alt="Second slide">
-                <div class="carousel-caption  d-md-block">
-                  <h5>My Caption Title (2nd Image)</h5>
-                  <p>The whole caption will only show up if the screen is at least medium size.</p>
+              <div class="row">
+                  <div class="col-6">  
+                    <img class="d-block w-100" src="./images/app-image-two.png" alt="First slide">
+                  </div>
+                  <div class="col-6 d-flex align-items-center">  
+                    <h2 class="font-body text-light text-left">Ganancia diaria</h2>
+                  </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-50" src="./images/app-image.png" alt="Third slide">
-                <div class="carousel-caption  d-md-block">
-                  <h5>My Caption Title (3rd Image)</h5>
-                  <p>The whole caption will only show up if the screen is at least medium size.</p>
+              <div class="row">
+                  <div class="col-6">  
+                    <img class="d-block w-100" src="./images/app-image.png" alt="First slide">
+                  </div>
+                  <div class="col-6 d-flex align-items-center">  
+                    <h2 class="font-body text-light text-left">Trabaje desde su casa</h2>
+                  </div>
                 </div>
               </div>
             </div>

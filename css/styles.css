@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@1,300&display=swap');
 :root {
     --first-color: #395698;
     --second-color: #f4511e;
     --third-color: #344c94 ;
+    --font-title:'Poppins', sans-serif;
+    --font-body:'Roboto', sans-serif;
   }
 .bg-first-color {
     background-color:var(--first-color);
 }
 .bg-third-color {
     background-color: var(--third-color) !important;
+}
+.font-title {
+    font-family: var(--font-title);
+}
+.font-body {
+    font-family: var(--font-body);
 }
 
 .bg-highlight {
