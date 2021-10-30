@@ -32,81 +32,88 @@
     <div class="row font-title">
       <div class="col  text-light text-center " style="padding:50px 25px">
         <h1 class="animate__animated animate__fadeInUp">Royal Q Robot</h1>
-        <h1 class="animate__animated animate__fadeInUp" >Trade <span style="color:#ffd85d; font-weight:bold">Binance</span></h1>
+        <h1 class="animate__animated animate__fadeInUp">Trade <span
+            style="color:#ffd85d; font-weight:bold">Binance</span></h1>
         <button type="button" class="btn btn-violet font-body " style="margin-top:25px;">Registrate Ahora</button>
       </div>
     </div>
     <!-- Carousel app -->
     <div class="row">
       <div class="container-fluid">
-      <div class="row justify-content-center" style="padding: 30px 0px;">
-        <div class="col-sm-12 col-md-10 col-lg-7 text-center">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-6">  
-                    <img class="d-block w-100" src="./images/app-image.png" alt="First slide">
+        <div class="row justify-content-center" style="padding: 30px 0px;">
+          <div class="col-sm-12 col-md-10 col-lg-7 text-center">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-6">
+                      <img class="d-block w-100" src="./images/app-image.png" alt="First slide">
+                    </div>
+                    <div class="col-6 d-flex align-items-center">
+                      <h2 class="font-body text-light text-left"><span style="font-size:40px">Trabaje</span><br> desde su<br> <span  style="color:#ffd85d; font-size:40px; font-weight:bold">CASA</span></h2>
+                    </div>
                   </div>
-                  <div class="col-6 d-flex align-items-center">  
-                    <h1 class="font-body text-light text-left">Trabaje desde su casa</h1>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-6">
+                      <img class="d-block w-100" src="./images/app-image-two.png" alt="First slide">
+                    </div>
+                    <div class="col-6 d-flex align-items-center">
+                      <h2 class="font-body text-light text-left " style="font-size: 40px;">Ganancia<br> diaria <i class="fas fa-dollar-sign" style="color:#ffd85d"></i></h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-6">
+                      <img class="d-block w-100" src="./images/app-image-three.png" alt="First slide">
+                    </div>
+                    <div class="col-6 d-flex align-items-center">
+                      <h2 class="font-body text-light text-left" style="font-size: 40px;">Multiples estrategias</h2>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-              <div class="row">
-                  <div class="col-6">  
-                    <img class="d-block w-100" src="./images/app-image-two.png" alt="First slide">
-                  </div>
-                  <div class="col-6 d-flex align-items-center">  
-                    <h1 class="font-body text-light text-left">Ganancia diaria</h1>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-              <div class="row">
-                  <div class="col-6">  
-                    <img class="d-block w-100" src="./images/app-image-three.png" alt="First slide">
-                  </div>
-                  <div class="col-6 d-flex align-items-center">  
-                    <h1 class="font-body text-light text-left">Multiples estrategias</h1>
-                  </div>
-                </div>
-              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
         </div>
       </div>
     </div>
-    </div>
   </div>
   <!-- About Us -->
-  <div class="container-fluid" style="padding-top:40px;">
+  <div class="container-fluid font-body" style="padding-top:40px;">
     <div class="row justify-content-center" style="margin-bottom:30px;">
       <div class="col-sm-12 col-lg-8">
         <div class="row">
           <div class="col-sm-12 col-md-8 " style="padding: 30px 30px">
-            <h2 style="margin-bottom: 30px;">Que es Royal Q?</h2>
-            <p style="margin-bottom: 30px;"><strong>RoyalQ trading BOT es un programa informático basado en una serie de
-                señales de trading de criptomonedas que ayudan a determinar si comprar o vender un par de criptomonedas
-                en
-                un momento dado. Fue desarrollado en el pais de China por una empresa que se ha extendido ampliamente en
-                los últimos
-                dos años. Recientemente también ha comenzado a ser conocido por nosotros.</strong></p>
-            <button class="btn btn-outline-secondary btn-lg">Contactanos</button>
+            <h2 style="margin-bottom: 30px;" class="font-title">Que es Royal Q?</h2>
+            <p style="margin-bottom: 30px;"><strong>SOFTWARE DE COMPUTADORA: </strong>RoyalQ trading BOT es un programa informático basado en una serie de
+              señales de trading de criptomonedas que ayudan a determinar si comprar o vender un par de criptomonedas
+              en
+              un momento dado. </p>
+            <p><strong>MODELO AUTOMATICO:</strong> Los robots como RoyalQ están diseñados para automatizar el comercio
+              de
+              criptomonedas en su nombre. Estos bots ayudan a automatizar el análisis y la interpretación de las
+              estadísticas del mercado.
+              Pueden recopilar datos de mercado, interpretarlos, calcular el riesgo de mercado potencial y ejecutar la
+              compra o venta de criptomonedas en su nombre. Piense en ello como contratar a un experto en comercio de
+              criptomonedas para que realice su comercio de criptomonedas mientras puede sentarse y ver crecer sus
+              ganancias.</p>
+            <button class="btn btn-outline-secondary btn-lg">Mas Información</button>
           </div>
           <div class="col-sm-12 col-md-4 text-center" style="padding:30px 30px">
             <img src="./images/acerca-de.jpg" alt="" class="img-fluid">
@@ -117,7 +124,7 @@
   </div>
 
   <!-- Our Mission -->
-  <div class="container-fluid">
+  <div class="container-fluid font-body">
     <div class="row justify-content-center bg-light" style="padding:30px 0px">
       <div class="col-sm-12 col-lg-8">
         <div class="row">
@@ -125,22 +132,15 @@
             <img src="./images/save-time.jpg" alt="image of ahorre tiempo" class="img-fluid">
           </div>
           <div class="col-sm-12 col-md-8  " style="padding: 30px 30px">
-            <h2 style="margin-bottom:30px"><i class="fas fa-history"></i> Ahorre tiempo y dinero</h2>
+            <h2 style="margin-bottom:30px" class="font-title"><i class="fas fa-history"></i> Ahorre tiempo y dinero</h2>
             <p style="margin-bottom:30px"><strong>MISSION:</strong> Los bots comerciales como RoyalQ Crypto a menudo
               pueden ahorrarle mucho tiempo y son más baratos que contratar expertos humanos. La verdad es que se sabe
               que las criptomonedas son extremadamente volátiles y la mayoría de las veces los precios fluctúan
               drásticamente incluso en minutos. Por lo tanto, en muchos casos, los comerciantes no pueden reaccionar con
               la suficiente rapidez a los cambios en el precio de mercado para lograr su objetivo comercial.
             </p>
-            <p><strong>MODELO AUTOMATICO:</strong> Los robots como RoyalQ están diseñados para automatizar el comercio
-              de
-              criptomonedas en su nombre. Estos bots ayudan a automatizar el análisis y la interpretación de las
-              estadísticas del mercado.
-              Pueden recopilar datos de mercado, interpretarlos, calcular el riesgo de mercado potencial y ejecutar la
-              compra o venta de criptomonedas en su nombre. Piense en ello como contratar a un experto en comercio de
-              criptomonedas para que realice su comercio de criptomonedas mientras puede sentarse y ver crecer sus
-              ganancias.</p>
-            <button class="btn btn-outline-secondary btn-lg">Contactanos</button>
+
+            <button class="btn btn-outline-secondary btn-lg">Mas Información</button>
           </div>
         </div>
       </div>
@@ -161,7 +161,7 @@
                 <h5 class="card-title">Royal Q</h5>
                 <p class="card-text">Descarga la app de Royal Q y empeza a operar con la ayuda del bot.
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-info">Hace tu cuenta gratis</a>
+                <a href="#" class="btn btn-info">Registrate</a>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@
                 <h5 class="card-title">Binance</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-warning text-dark">Hace tu cuenta gratis</a>
+                <a href="#" class="btn btn-warning text-dark">Descarga la app</a>
               </div>
             </div></i>
           </div>
@@ -183,7 +183,7 @@
                 <h5 class="card-title">Binance</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-info">Hace tu cuenta gratis</a>
+                <a href="#" class="btn btn-info">Vincula tu cuenta</a>
               </div>
             </div>
           </div>
