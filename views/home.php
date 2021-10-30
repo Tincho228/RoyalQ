@@ -32,14 +32,14 @@
     <div class="row font-title">
       <div class="col  text-light text-center " style="padding:50px 25px">
         <h1 class="animate__animated animate__fadeInUp">Royal Q Robot</h1>
-        <h1 class="animate__animated animate__fadeInUp" >Trade <span style="color:#ffd85d;">Binance</span></h1>
+        <h1 class="animate__animated animate__fadeInUp" >Trade <span style="color:#ffd85d; font-weight:bold">Binance</span></h1>
         <button type="button" class="btn btn-violet font-body " style="margin-top:25px;">Registrate Ahora</button>
       </div>
     </div>
     <!-- Carousel app -->
     <div class="row">
       <div class="container-fluid">
-      <div class="row justify-content-center" style="padding: 60px 0px">
+      <div class="row justify-content-center" style="padding: 30px 0px;">
         <div class="col-sm-12 col-md-10 col-lg-7 text-center">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -54,7 +54,7 @@
                     <img class="d-block w-100" src="./images/app-image.png" alt="First slide">
                   </div>
                   <div class="col-6 d-flex align-items-center">  
-                    <h2 class="font-body text-light text-left">Trabaje desde su casa</h2>
+                    <h1 class="font-body text-light text-left">Trabaje desde su casa</h1>
                   </div>
                 </div>
               </div>
@@ -64,17 +64,17 @@
                     <img class="d-block w-100" src="./images/app-image-two.png" alt="First slide">
                   </div>
                   <div class="col-6 d-flex align-items-center">  
-                    <h2 class="font-body text-light text-left">Ganancia diaria</h2>
+                    <h1 class="font-body text-light text-left">Ganancia diaria</h1>
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
               <div class="row">
                   <div class="col-6">  
-                    <img class="d-block w-100" src="./images/app-image.png" alt="First slide">
+                    <img class="d-block w-100" src="./images/app-image-three.png" alt="First slide">
                   </div>
                   <div class="col-6 d-flex align-items-center">  
-                    <h2 class="font-body text-light text-left">Trabaje desde su casa</h2>
+                    <h1 class="font-body text-light text-left">Multiples estrategias</h1>
                   </div>
                 </div>
               </div>
