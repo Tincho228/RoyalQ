@@ -253,53 +253,6 @@
       </div>
     </div>
 
-    <!-- Costumer say -->
-    <div class="container-fluid">
-      <div class="row justify-content-center" style="padding: 60px 0px">
-        <div class="col-sm-12 col-md-10 col-lg-7 text-center">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner text-center">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="First slide">
-                <div class="carousel-caption  d-md-block">
-                  <button class="btn btn-danger">click</button>
-                  <h5>My Caption Title (1st Image)</h5>
-                  <p>The whole caption will only show up if the screen is at least medium size.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="Second slide">
-                <div class="carousel-caption  d-md-block">
-                  <h5>My Caption Title (2nd Image)</h5>
-                  <p>The whole caption will only show up if the screen is at least medium size.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./images/carousel-trading.jpg" alt="Third slide">
-                <div class="carousel-caption  d-md-block">
-                  <h5>My Caption Title (3rd Image)</h5>
-                  <p>The whole caption will only show up if the screen is at least medium size.</p>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!--  Contact section-->
     <div class="container-fluid bg-light">
       <h2 class="text-center">Contacto</h2>
@@ -309,7 +262,6 @@
             <div class="col-sm-5">
               <p>Un asesor te respondera a la brevedad</p>
               <p><span class="glyphicon glyphicon-map-marker"></span> Argentina, AR</p>
-              <p><span class="glyphicon glyphicon-phone"></span>+54 9 260 4265856</p>
               <p><span class="glyphicon glyphicon-envelope"></span> consulta@royalq-mundial.com</p>
             </div>
             <div class="col-sm-7">
@@ -328,10 +280,10 @@
             </div>
 
 
-            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Escribinos tu mensaje" rows="5"></textarea><br>
             <div class="row">
               <div class="col-sm-12 form-group">
-                <button class="btn btn-default pull-right" type="submit">Send</button>
+                <button class="btn btn-default pull-right" type="submit">Enviar</button>
               </div>
             </div>
           </div>
