@@ -101,7 +101,8 @@
         <div class="row">
           <div class="col-sm-12 col-md-8 " style="padding: 30px 30px">
             <h2 style="margin-bottom: 30px;" class="font-title">Que es Royal Q?</h2>
-            <p style="margin-bottom: 30px;"><strong>SOFTWARE DE COMPUTADORA: </strong>RoyalQ trading BOT es un programa informático basado en una serie de
+            <p style="margin-bottom: 30px;"><strong>SOFTWARE DE COMPUTADORA: </strong>RoyalQ trading BOT es un programa
+              informático basado en una serie de
               señales de trading de criptomonedas que ayudan a determinar si comprar o vender un par de criptomonedas
               en
               un momento dado. </p>
@@ -155,7 +156,8 @@
           seguir</h2>
         <div class="row text-center" style="margin-bottom:30px;">
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-            <div class="card" style="width: 18rem; margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(23 162 184 / 59%)">
+            <div class="card"
+              style="width: 18rem; margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(23 162 184 / 59%)">
               <i class="fas fa-robot text-info" style="font-size:100px; margin-top:20px"></i>
               <div class="card-body">
                 <h5 class="card-title">Royal Q</h5>
@@ -166,7 +168,8 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-            <div class="card" style="width: 18rem;margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(255 193 7);">
+            <div class="card"
+              style="width: 18rem;margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(255 193 7);">
               <i class="fab fa-bitcoin text-warning" style="font-size:100px; margin-top:20px; "></i>
               <div class="card-body">
                 <h5 class="card-title">Binance</h5>
@@ -177,26 +180,30 @@
             </div></i>
           </div>
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-            <div class="card" style="width: 18rem;margin:20px; border-radius:25px ; box-shadow:8px 7px 20px rgb(112 48 160);">
-            <i class="fas fa-link" style="font-size:100px; margin-top:20px; color:rgb(112 48 160)"></i>
+            <div class="card"
+              style="width: 18rem;margin:20px; border-radius:25px ; box-shadow:8px 7px 20px rgb(112 48 160);">
+              <i class="fas fa-link" style="font-size:100px; margin-top:20px; color:rgb(112 48 160)"></i>
               <div class="card-body">
                 <h5 class="card-title">Vinculá</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-info" style="border-radius:25px;">Vincula tu cuenta</a>
+                <a href="#" class="btn btn-info" style="border-radius:25px; background-color:rgb(112 48 160)">Vincula tu
+                  cuenta</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center"
-          style="padding:1.25rem; border:1px solid rgba(0,0,0,.125); width:18rem; margin:auto; border-radius:25px; 
-          box-shadow:8px 7px 20px rgb(0 123 255)">
-
-
-          <h3 class="text-center text-highlight" style="margin-right: 20px;">Pedi la ayuda de un asesor</h3>
-          <button class="btn btn-primary" style="border-radius:25px;">Solicitar ayuda</button>
-
-
+        <div class="row justify-content-center">
+          <div class="card text-center"
+            style="width: 18rem;margin:20px; border-radius:25px ; box-shadow:8px 7px 20px black;">
+            <i class="fas fa-user-tie" style="font-size:100px; margin-top:20px; color:black"></i>
+            <div class="card-body">
+              <h5 class="card-title">Soporte</h5>
+              <p class="card-text">Pedi la ayuda de un asesor.</p>
+              <a href="#" class="btn btn-dark" style="border-radius:25px;">Solicita
+                ayuda</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -209,17 +216,17 @@
           <P class="text-center" style="margin-bottom: 40px;">Te ofrecemos</P>
           <div class="row">
             <div class="col-sm-4">
-              <i class="fas fa-power-off text-highlight"></i>
+              <i class="fas fa-power-off text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
               <h4>Soporte</h4>
               <p>Instalacion y programacion remota las 24 hs.</p>
             </div>
             <div class="col-sm-4">
-              <i class="fas fa-heart text-highlight"></i>
+              <i class="fas fa-heart text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
               <h4>Capacitacion</h4>
               <p>Las mejores estrategias personalizadas</p>
             </div>
             <div class="col-sm-4">
-              <i class="fas fa-lock text-highlight"></i>
+              <i class="fas fa-lock text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
               <h4>Asesoramiento</h4>
               <p>LLevar la inversion a un nivel superior</p>
             </div>
@@ -227,17 +234,17 @@
           <br><br>
           <div class="row">
             <div class="col-sm-4">
-              <i class="fas fa-leaf text-highlight"></i>
+              <i class="fas fa-leaf text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
               <h4>Grupos</h4>
               <p>Tips y estrategias de los mejores Traders</p>
             </div>
             <div class="col-sm-4">
-              <i class="fas fa-certificate text-highlight"></i>
+              <i class="fas fa-certificate text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
               <h4>Seguridad</h4>
               <p>Proteccion sobre la inversion</p>
             </div>
             <div class="col-sm-4">
-              <i class="fas fa-wrench text-highlight"></i>
+              <i class="fas fa-wrench text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
               <h4>Control</h4>
               <p>Observá tus ganancias diarias desde la app</p>
             </div>
