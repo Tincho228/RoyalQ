@@ -292,7 +292,17 @@
     </div>
   </div>
 
-
+  <div>
+    <a  href="https://api.whatsapp.com/send?phone=542604375615" target="_blank">
+    <i class="fab fa-whatsapp text-success btn-whatsapp"></i>
+    </a>
+  </div>
+  <div class="btn-facebook">
+    <a href="https://www.facebook.com/BLOG-De-Ganancias-Argentina-103371018178827/?modal=admin_todo_tour&notif_id=1599607581917840&notif_t=page_invite&ref=notif"
+      target="_blank">
+      <i class="fab fa-facebook"></i>
+    </a>
+  </div>
 
   <!--  Footer  -->
   <?php include "./common/footer.php" ?>

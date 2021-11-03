@@ -55,3 +55,9 @@
     color: white !important;
     border-radius:25px !important;
 }
+.btn-whatsapp {
+    font-size:40px;
+    position:fixed;
+    bottom:5px;
+    right:5px;
+}
