@@ -34,7 +34,8 @@
         <h1 class="animate__animated animate__fadeInUp display-4">Royal Q Robot</h1>
         <h1 class="animate__animated animate__fadeInUp">Trade <span
             style="color:#ffd85d; font-weight:bold">Binance</span></h1>
-        <button type="button" class="btn btn-lg btn-violet font-body " style="margin-top:25px;">Registrate Ahora</button>
+        <button type="button" class="btn btn-lg btn-violet font-body " style="margin-top:25px;">Registrate
+          Ahora</button>
       </div>
     </div>
     <!-- Carousel app -->
@@ -187,7 +188,8 @@
                 <h5 class="card-title">Vinculá</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-info btn-lg" style="border-radius:25px; background-color:rgb(112 48 160)">Vincula tu
+                <a href="#" class="btn btn-info btn-lg"
+                  style="border-radius:25px; background-color:rgb(112 48 160)">Vincula tu
                   cuenta</a>
               </div>
             </div>
@@ -280,7 +282,8 @@
             </div>
 
 
-            <textarea class="form-control" id="comments" name="comments" placeholder="Escribinos tu mensaje" rows="5"></textarea><br>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Escribinos tu mensaje"
+              rows="5"></textarea><br>
             <div class="row">
               <div class="col-sm-12 form-group">
                 <button class="btn btn-default pull-right" type="submit">Enviar</button>
@@ -291,19 +294,7 @@
       </div>
     </div>
   </div>
-
-  <div>
-    <a  href="https://api.whatsapp.com/send?phone=542604375615" target="_blank">
-    <i class="fab fa-whatsapp text-success btn-whatsapp"></i>
-    </a>
-  </div>
-  <div class="btn-facebook">
-    <a href="https://www.facebook.com/BLOG-De-Ganancias-Argentina-103371018178827/?modal=admin_todo_tour&notif_id=1599607581917840&notif_t=page_invite&ref=notif"
-      target="_blank">
-      <i class="fab fa-facebook"></i>
-    </a>
-  </div>
-
+  
   <!--  Footer  -->
   <?php include "./common/footer.php" ?>
 
