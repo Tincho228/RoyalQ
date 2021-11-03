@@ -12,17 +12,17 @@
     </div>
     <div class="accordion fixed-bottom" id="accordionExample">
       <div class="card" style="border:transparent">
-        <div class="card-header bg-third-color d-flex justify-content-center" id="headingOne"
+        <div class="card-header bg-dark d-flex justify-content-center" id="headingOne"
           style="padding:0px; border:transparent; ; border-radius:0px">
           <h2 class="mb-0">
             <button class="btn text-center" type="button" data-toggle="collapse" data-target="#collapseOne"
               aria-expanded="true" aria-controls="collapseOne">
-              <i class="fas fa-globe text-light" style="font-size: 30px;"> </i>
+                <img src="./images/logo_purple.png" alt="logo" style="width:40px">
             </button>
           </h2>
         </div>
 
-        <div id="collapseOne" class="collapse bg-third-color" aria-labelledby="headingOne"
+        <div id="collapseOne" class="collapse bg-dark" aria-labelledby="headingOne"
           data-parent="#accordionExample">
           <div class="card-body text-light">
             <p class="text-center text-light">Seguinos en redes sociales</p>
