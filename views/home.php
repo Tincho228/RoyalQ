@@ -31,7 +31,7 @@
     <!-- Main title -->
     <div class="row font-title">
       <div class="col  text-light text-center " style="padding:50px 25px">
-        <h1 class="animate__animated animate__fadeInUp">Royal Q Robot</h1>
+        <h1 class="animate__animated animate__fadeInUp display-4">Royal Q Robot</h1>
         <h1 class="animate__animated animate__fadeInUp">Trade <span
             style="color:#ffd85d; font-weight:bold">Binance</span></h1>
         <button type="button" class="btn btn-violet font-body " style="margin-top:25px;">Registrate Ahora</button>
@@ -55,7 +55,7 @@
                       <img class="d-block w-100" src="./images/app-image.png" alt="First slide">
                     </div>
                     <div class="col-6 d-flex align-items-center">
-                      <h2 class="font-body text-light text-left">Trabaje desde su CASA</h2>
+                      <h2 class="font-body text-light text-left">Trabaja<br>24 hs</h2>
                     </div>
                   </div>
                 </div>
@@ -65,7 +65,7 @@
                       <img class="d-block w-100" src="./images/app-image-two.png" alt="First slide">
                     </div>
                     <div class="col-6 d-flex align-items-center">
-                      <h2 class="font-body text-light text-left ">Ganancia diaria <i class="fas fa-dollar-sign" style="color:#ffd85d"></i></h2>
+                      <h2 class="font-body text-light text-left ">Informe de<br>Ganancia<br>diaria.</h2>
                     </div>
                   </div>
                 </div>
@@ -75,7 +75,7 @@
                       <img class="d-block w-100" src="./images/app-image-three.png" alt="First slide">
                     </div>
                     <div class="col-6 d-flex align-items-center">
-                      <h2 class="font-body text-light text-left">Estrategias<br>24 hs</h2>
+                      <h2 class="font-body text-light text-left">Fácil de<br>operar</h2>
                     </div>
                   </div>
                 </div>
