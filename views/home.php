@@ -153,47 +153,48 @@
       <div class="col-sm-12 col-lg-8 text">
         <h2 class="text-center" style="margin-bottom: 30px;"><i class="fas fa-crop-alt text-highlight"></i> Pasos a
           seguir</h2>
-        <div class="row text-center">
+        <div class="row text-center" style="margin-bottom:30px;">
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-            <div class="card" style="width: 18rem; margin:20px">
+            <div class="card" style="width: 18rem; margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(23 162 184 / 59%)">
               <i class="fas fa-robot text-info" style="font-size:100px; margin-top:20px"></i>
               <div class="card-body">
                 <h5 class="card-title">Royal Q</h5>
                 <p class="card-text">Descarga la app de Royal Q y empeza a operar con la ayuda del bot.
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-info">Registrate</a>
+                <a href="#" class="btn btn-info" style="border-radius:25px;">Registrate</a>
               </div>
             </div>
           </div>
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-            <div class="card" style="width: 18rem;margin:20px">
-              <i class="fab fa-bitcoin text-warning" style="font-size:100px; margin-top:20px"></i>
+            <div class="card" style="width: 18rem;margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(255 193 7);">
+              <i class="fab fa-bitcoin text-warning" style="font-size:100px; margin-top:20px; "></i>
               <div class="card-body">
                 <h5 class="card-title">Binance</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-warning text-dark">Descarga la app</a>
+                <a href="#" class="btn btn-warning text-dark" style="border-radius:25px;">Descarga la app</a>
               </div>
             </div></i>
           </div>
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-            <div class="card" style="width: 18rem;margin:20px">
-              <i class="fab fa-bitcoin text-warning" style="font-size:100px; margin-top:20px"></i>
+            <div class="card" style="width: 18rem;margin:20px; border-radius:25px ; box-shadow:8px 7px 20px rgb(112 48 160);">
+            <i class="fas fa-link" style="font-size:100px; margin-top:20px; color:rgb(112 48 160)"></i>
               <div class="card-body">
-                <h5 class="card-title">Binance</h5>
+                <h5 class="card-title">Vinculá</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-info">Vincula tu cuenta</a>
+                <a href="#" class="btn btn-info" style="border-radius:25px;">Vincula tu cuenta</a>
               </div>
             </div>
           </div>
         </div>
         <div class="row justify-content-center"
-          style="padding:1.25rem; border:1px solid rgba(0,0,0,.125); width:18rem; margin:auto ">
+          style="padding:1.25rem; border:1px solid rgba(0,0,0,.125); width:18rem; margin:auto; border-radius:25px; 
+          box-shadow:8px 7px 20px rgb(0 123 255)">
 
 
-          <h3 class="text-center text-highlight" style="margin-right: 20px">Pedi la ayuda de un asesor</h3>
-          <button class="btn btn-primary">Solicitar ayuda</button>
+          <h3 class="text-center text-highlight" style="margin-right: 20px;">Pedi la ayuda de un asesor</h3>
+          <button class="btn btn-primary" style="border-radius:25px;">Solicitar ayuda</button>
 
 
         </div>
