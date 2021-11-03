@@ -13,7 +13,7 @@
     <div class="accordion fixed-bottom" id="accordionExample">
       <div class="card" style="border:transparent">
         <div class="card-header bg-third-color d-flex justify-content-center" id="headingOne"
-          style="padding:0px; border:transparent">
+          style="padding:0px; border:transparent; ; border-radius:0px">
           <h2 class="mb-0">
             <button class="btn text-center" type="button" data-toggle="collapse" data-target="#collapseOne"
               aria-expanded="true" aria-controls="collapseOne">
