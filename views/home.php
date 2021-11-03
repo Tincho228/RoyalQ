@@ -41,7 +41,7 @@
     <div class="row">
       <div class="container-fluid">
         <div class="row justify-content-center" style="padding: 30px 0px;">
-          <div class="col-sm-12 col-md-10 col-lg-7 text-center">
+          <div class="col-sm-12 col-md-6 col-lg-4 text-center">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -55,7 +55,7 @@
                       <img class="d-block w-100" src="./images/app-image.png" alt="First slide">
                     </div>
                     <div class="col-6 d-flex align-items-center">
-                      <h2 class="font-body text-light text-left"><span style="font-size:40px">Trabaje</span><br> desde su<br> <span  style="color:#ffd85d; font-size:40px; font-weight:bold">CASA</span></h2>
+                      <h2 class="font-body text-light text-left">Trabaje desde su CASA</h2>
                     </div>
                   </div>
                 </div>
@@ -65,7 +65,7 @@
                       <img class="d-block w-100" src="./images/app-image-two.png" alt="First slide">
                     </div>
                     <div class="col-6 d-flex align-items-center">
-                      <h2 class="font-body text-light text-left " style="font-size: 40px;">Ganancia<br> diaria <i class="fas fa-dollar-sign" style="color:#ffd85d"></i></h2>
+                      <h2 class="font-body text-light text-left ">Ganancia diaria <i class="fas fa-dollar-sign" style="color:#ffd85d"></i></h2>
                     </div>
                   </div>
                 </div>
@@ -75,7 +75,7 @@
                       <img class="d-block w-100" src="./images/app-image-three.png" alt="First slide">
                     </div>
                     <div class="col-6 d-flex align-items-center">
-                      <h2 class="font-body text-light text-left" style="font-size: 40px;">Multiples estrategias</h2>
+                      <h2 class="font-body text-light text-left">Estrategias<br>24 hs</h2>
                     </div>
                   </div>
                 </div>
