@@ -32,10 +32,10 @@
 }
 .hamburguer-menu {
     display:block;
-    width: 35px;
-    height: 5px;
+    width: 30px;
+    height: 4px;
     background-color: whitesmoke;
-    margin: 6px 0;
+    margin: 4px 0;
 }
 
 .navbar-toggler {

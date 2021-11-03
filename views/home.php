@@ -34,7 +34,7 @@
         <h1 class="animate__animated animate__fadeInUp display-4">Royal Q Robot</h1>
         <h1 class="animate__animated animate__fadeInUp">Trade <span
             style="color:#ffd85d; font-weight:bold">Binance</span></h1>
-        <button type="button" class="btn btn-violet font-body " style="margin-top:25px;">Registrate Ahora</button>
+        <button type="button" class="btn btn-lg btn-violet font-body " style="margin-top:25px;">Registrate Ahora</button>
       </div>
     </div>
     <!-- Carousel app -->
@@ -55,7 +55,7 @@
                       <img class="d-block w-100" src="./images/app-image.png" alt="First slide">
                     </div>
                     <div class="col-6 d-flex align-items-center">
-                      <h2 class="font-body text-light text-left">Trabaja<br>24 hs</h2>
+                      <h2 class="font-body text-light text-left">Activa<br>las 24 hs</h2>
                     </div>
                   </div>
                 </div>
@@ -163,7 +163,7 @@
                 <h5 class="card-title">Royal Q</h5>
                 <p class="card-text">Descarga la app de Royal Q y empeza a operar con la ayuda del bot.
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-info" style="border-radius:25px;">Registrate</a>
+                <a href="#" class="btn btn-lg btn-info" style="border-radius:25px;">Registrate</a>
               </div>
             </div>
           </div>
@@ -175,7 +175,7 @@
                 <h5 class="card-title">Binance</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-warning text-dark" style="border-radius:25px;">Descarga la app</a>
+                <a href="#" class="btn btn-lg btn-warning text-dark" style="border-radius:25px;">Descarga la app</a>
               </div>
             </div></i>
           </div>
@@ -187,7 +187,7 @@
                 <h5 class="card-title">Vinculá</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-info" style="border-radius:25px; background-color:rgb(112 48 160)">Vincula tu
+                <a href="#" class="btn btn-info btn-lg" style="border-radius:25px; background-color:rgb(112 48 160)">Vincula tu
                   cuenta</a>
               </div>
             </div>
@@ -200,7 +200,7 @@
             <div class="card-body">
               <h5 class="card-title">Soporte</h5>
               <p class="card-text">Pedi la ayuda de un asesor.</p>
-              <a href="#" class="btn btn-dark" style="border-radius:25px;">Solicita
+              <a href="#" class="btn btn-dark btn-lg" style="border-radius:25px;">Solicita
                 ayuda</a>
             </div>
           </div>
