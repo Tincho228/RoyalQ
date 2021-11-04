@@ -14,16 +14,26 @@
   <div class="accordion fixed-bottom" id="accordionExample">
     <div class="card " style="border:transparent; visibility:hidden ">
       <div class="card-header d-flex  justify-content-center " id="headingOne"
-        style="padding:0px; border:transparent; ; border-radius:0px;">
+        style="padding:0px;
+           border:transparent;
+           border-radius:0px;
+           padding-bottom: 2px;
+           ">
         <button class="btn-footer text-center" type="button" data-toggle="collapse" data-target="#collapseOne"
           aria-expanded="true" aria-controls="collapseOne" style=" margin-bottom:-7px;visibility: visible">
-          <div class="bg-third-color" style="border-radius: 30px 30px 0px 0px; padding-bottom:2px">
+          <div class="bg-third-color" 
+               style="border-radius:30px 30px 0px 0px;
+                      padding-bottom:2px;
+                      border-top: 2px solid red;
+                      border-right: 2px solid red;
+                      border-left: 2px solid red;
+                      ">
             <i class="fas fa-chevron-up text-warning blink" style="font-size: 30px;padding:2px 10px"></i>
           </div>
         </button>
       </div>
-      <div id="collapseOne" class="collapse bg-third-color" aria-labelledby="headingOne"
-        data-parent="#accordionExample" style="visibility: visible">
+      <div id="collapseOne" class="collapse bg-third-color" aria-labelledby="headingOne" data-parent="#accordionExample"
+        style="visibility: visible">
         <div class="card-body text-light">
           <p class="text-center text-light">Seguinos en redes sociales</p>
           <hr class="bg-light">
