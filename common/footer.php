@@ -12,13 +12,13 @@
     </div>
     <div class="accordion fixed-bottom" id="accordionExample">
       <div class="card" style="border:transparent">
-        <div class="card-header d-flex bg-third-color justify-content-center" id="headingOne"
+        <div class="card-header d-flex bg-highlight justify-content-center" id="headingOne"
           style="padding:0px; border:transparent; ; border-radius:0px">
           <h2 class="mb-0">
             <button  class="btn-footer text-center" type="button" data-toggle="collapse" data-target="#collapseOne"
               aria-expanded="true" aria-controls="collapseOne" style=" margin-bottom:-7px;">
-              <div class="bg-dark" style="border-radius: 30px 30px 0px 0px; padding-top: 2px;padding-bottom:2px">
-                <i class="fas fa-cloud-upload-alt text-light" style="font-size: 30px;padding:2px 10px"></i>
+              <div class="bg-dark" style="border-radius: 30px 30px 0px 0px; padding-bottom:2px">
+                <i class="fas fa-chevron-up text-light" style="font-size: 30px;padding:2px 10px"></i>
               </div>
             </button>
           </h2>
