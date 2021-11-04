@@ -70,3 +70,20 @@
 .btn-footer:focus{
     outline:transparent !important;
 }
+
+/* ANIMATIONS */
+.blink {
+    animation: blink-animation 2s steps(5, start) infinite ease-in-out;
+    -webkit-animation: blink-animation 2s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      /*transition: .5s;*/
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }

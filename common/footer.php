@@ -17,14 +17,14 @@
           <h2 class="mb-0">
             <button  class="btn-footer text-center" type="button" data-toggle="collapse" data-target="#collapseOne"
               aria-expanded="true" aria-controls="collapseOne" style=" margin-bottom:-7px;">
-              <div class="bg-dark" style="border-radius: 30px 30px 0px 0px; padding-bottom:2px">
-                <i class="fas fa-chevron-up text-light" style="font-size: 30px;padding:2px 10px"></i>
+              <div class="bg-third-color" style="border-radius: 30px 30px 0px 0px; padding-bottom:2px">
+                <i class="fas fa-chevron-up text-warning blink" style="font-size: 30px;padding:2px 10px"></i>
               </div>
             </button>
           </h2>
         </div>
 
-        <div id="collapseOne" class="collapse bg-dark" aria-labelledby="headingOne"
+        <div id="collapseOne" class="collapse bg-third-color" aria-labelledby="headingOne"
           data-parent="#accordionExample">
           <div class="card-body text-light">
             <p class="text-center text-light">Seguinos en redes sociales</p>
