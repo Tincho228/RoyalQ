@@ -24,9 +24,9 @@
           <div class="bg-third-color" 
                style="border-radius:30px 30px 0px 0px;
                       padding-bottom:2px;
-                      border-top: 2px solid red;
-                      border-right: 2px solid red;
-                      border-left: 2px solid red;
+                      border-top: 2px solid white;
+                      border-right: 2px solid white;
+                      border-left: 2px solid white;
                       ">
             <i class="fas fa-chevron-up text-warning blink" style="font-size: 30px;padding:2px 10px"></i>
           </div>
