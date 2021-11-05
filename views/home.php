@@ -159,36 +159,36 @@
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
             <div class="card"
               style="width: 18rem; margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(23 162 184 / 59%)">
-              <i class="fas fa-robot text-info" style="font-size:100px; margin-top:20px"></i>
+              <i class="fas fa-robot text-info" style="font-size:50px; margin-top:20px"></i>
               <div class="card-body">
                 <h5 class="card-title">Royal Q</h5>
                 <p class="card-text">Descarga la app de Royal Q y empeza a operar con la ayuda del bot.
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-lg btn-info" style="border-radius:25px;">Registrate</a>
+                <a href="#" class="btn btn-info" style="border-radius:25px;">Registrate</a>
               </div>
             </div>
           </div>
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
             <div class="card"
               style="width: 18rem;margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(255 193 7);">
-              <i class="fab fa-bitcoin text-warning" style="font-size:100px; margin-top:20px; "></i>
+              <i class="fab fa-bitcoin text-warning" style="font-size:50px; margin-top:20px; "></i>
               <div class="card-body">
                 <h5 class="card-title">Binance</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-lg btn-warning text-dark" style="border-radius:25px;">Descarga la app</a>
+                <a href="#" class="btn  btn-warning text-dark" style="border-radius:25px;">Descarga la app</a>
               </div>
             </div></i>
           </div>
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
             <div class="card"
               style="width: 18rem;margin:20px; border-radius:25px ; box-shadow:8px 7px 20px rgb(112 48 160);">
-              <i class="fas fa-link" style="font-size:100px; margin-top:20px; color:rgb(112 48 160)"></i>
+              <i class="fas fa-link" style="font-size:50px; margin-top:20px; color:rgb(112 48 160)"></i>
               <div class="card-body">
                 <h5 class="card-title">Vinculá</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
                   <strong>24 hs</strong></p>
-                <a href="#" class="btn btn-info btn-lg"
+                <a href="#" class="btn btn-info"
                   style="border-radius:25px; background-color:rgb(112 48 160)">Vincula tu
                   cuenta</a>
               </div>
@@ -198,11 +198,11 @@
         <div class="row justify-content-center">
           <div class="card text-center"
             style="width: 18rem;margin:20px; border-radius:25px ; box-shadow:8px 7px 20px black;">
-            <i class="fas fa-user-tie" style="font-size:100px; margin-top:20px; color:black"></i>
+            <i class="fas fa-user-tie" style="font-size:50px; margin-top:20px; color:black"></i>
             <div class="card-body">
               <h5 class="card-title">Soporte</h5>
               <p class="card-text">Pedi la ayuda de un asesor.</p>
-              <a href="#" class="btn btn-dark btn-lg" style="border-radius:25px;">Solicita
+              <a href="#" class="btn btn-dark" style="border-radius:25px;">Solicita
                 ayuda</a>
             </div>
           </div>
