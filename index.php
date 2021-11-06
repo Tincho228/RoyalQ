@@ -177,17 +177,22 @@ switch ($action) {
     case 'contact':
         $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
         $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_STRING);
+        $phone = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_STRING);
         $message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
-        $email_from = "Sitio Ganancias Depotivas";
-        $email_subject = "Consulta";
+        $email_from = "Sitio Web";
+        $email_subject = "Consulta de ".$name;
         $email_body = "Nombre: $name.\n".
         "Email: $email.\n".
         "Mensaje: $message.\n"; 
-        $to = "consultas@ganancias-deportivas.com.ar";
+        $to = "consultas@royalq-mundial.com";
         $headers = "De: $email_from \r\n";
         $headers.= "Responder a: $email \r\n";
         mail($to, $email_subject, $email_body, $headers);
-        header("location: gracias.php");
+        header("location: index.php");
+        echo $name;
+        echo $email;
+        echo $phone;
+        echo $message;
         break;
     case'activate':
         $user_id = filter_input(INPUT_POST, 'user_id', FILTER_SANITIZE_STRING);

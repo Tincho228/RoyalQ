@@ -6,6 +6,9 @@
     --font-title:'Poppins', sans-serif;
     --font-body:'Roboto', sans-serif;
   }
+html {
+    scroll-behavior: smooth;
+}
 .bg-first-color {
     background-color:var(--first-color);
 }

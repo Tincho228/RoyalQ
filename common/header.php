@@ -18,13 +18,13 @@
             <a class="nav-link text-light" href="#"><i class="far fa-question-circle"></i> Preguntas frecuentes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+            <a class="nav-link text-light" href="https://api.whatsapp.com/send?phone=542604375615" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#"><i class="fab fa-facebook"></i> Seguinos</a>
+            <a class="nav-link text-light" href="https://www.facebook.com/BLOG-De-Ganancias-Argentina-103371018178827/?modal=admin_todo_tour&notif_id=1599607581917840&notif_t=page_invite&ref=notif0" target="_blank"><i class="fab fa-facebook"></i> Seguinos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#"><i class="fas fa-envelope-open-text"></i> Contactanos</a>
+            <a class="nav-link text-light" href="#contactUs"><i class="fas fa-envelope-open-text"></i> Contactanos</a>
           </li>
 
 
