@@ -25,8 +25,7 @@
                style="border-radius:30px 30px 0px 0px;
                       padding-bottom:2px;
                       border-top: 2px solid white;
-                      border-right: 2px solid white;
-                      border-left: 2px solid white;
+                      box-shadow: 0px 12px 20px white;
                       ">
             <i class="fas fa-chevron-up text-warning blink" style="font-size: 30px;padding:2px 10px"></i>
           </div>
