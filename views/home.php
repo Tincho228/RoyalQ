@@ -7,7 +7,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="./css/styles.css">
-  </link>
+
+  <!-- Favicon Code -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favivon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -34,7 +39,8 @@
         <h1 class="animate__animated animate__fadeInUp display-4">Royal Q Robot</h1>
         <h1 class="animate__animated animate__fadeInUp">Trade <span
             style="color:#ffd85d; font-weight:bold">Binance</span></h1>
-        <a href="https://raqsy.com/s/2JBS4" target="_blank" type="button" class="btn btn-lg btn-violet font-body " style="margin-top:25px;">Registrate
+        <a href="https://raqsy.com/s/2JBS4" target="_blank" type="button" class="btn btn-lg btn-violet font-body "
+          style="margin-top:25px;">Registrate
           Ahora</a>
       </div>
     </div>
@@ -157,26 +163,30 @@
           seguir</h2>
         <div class="row text-center" style="margin-bottom:30px;">
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-            
+
             <div class="card"
               style="width: 18rem;margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(255 193 7);">
               <i class="fab fa-bitcoin text-warning" style="font-size:50px; margin-top:20px; "></i>
               <div class="card-body">
                 <h5 class="card-title">Binance</h5>
-                <p class="card-text">Crea tu cuenta totalmente gratis con este link y obtené un <span style="font-weight:bold; font-size:20px">10%</span> de descuento en comisiones. Ingresá y retirá tu dinero las
+                <p class="card-text">Crea tu cuenta totalmente gratis con este link y obtené un <span
+                    style="font-weight:bold; font-size:20px">10%</span> de descuento en comisiones. Ingresá y retirá tu
+                  dinero las
                   <strong>24 hs</strong></p>
-                <a href="https://accounts.binance.com/es-LA/register?ref=L3UEOOFA" class="btn  btn-warning text-dark" style="border-radius:25px;">Descarga la app</a>
+                <a href="https://accounts.binance.com/es-LA/register?ref=L3UEOOFA" class="btn  btn-warning text-dark"
+                  style="border-radius:25px;">Descarga la app</a>
               </div>
             </div></i>
           </div>
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-          <div class="card"
+            <div class="card"
               style="width: 18rem; margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(23 162 184 / 59%)">
               <i class="fas fa-robot text-info" style="font-size:50px; margin-top:20px"></i>
               <div class="card-body">
                 <h5 class="card-title">Royal Q</h5>
                 <p class="card-text">Crea tu cuenta gratuita en RoyalQ Bot.</p>
-                <a href="https://raqsy.com/s/STB4Y" target="_blank" class="btn btn-info" style="border-radius:25px;">Registrate</a>
+                <a href="https://raqsy.com/s/STB4Y" target="_blank" class="btn btn-info"
+                  style="border-radius:25px;">Registrate</a>
               </div>
             </div>
           </div>
@@ -188,7 +198,8 @@
                 <h5 class="card-title">Vinculá</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
                   <strong>24 hs</strong></p>
-                <a href="#contactUs" class="btn btn-info" style="border-radius:25px; background-color:rgb(112 48 160)">Vincula tu
+                <a href="#contactUs" class="btn btn-info"
+                  style="border-radius:25px; background-color:rgb(112 48 160)">Vincula tu
                   cuenta</a>
               </div>
             </div>
@@ -284,19 +295,19 @@
 
               </div>
 
-              </div>
-              <label for="mensaje">Mensaje</label>
-              <textarea class="form-control" id="comments" name="message" placeholder="Escribinos tu mensaje" rows="5"
+            </div>
+            <label for="mensaje">Mensaje</label>
+            <textarea class="form-control" id="comments" name="message" placeholder="Escribinos tu mensaje" rows="5"
               required></textarea>
 
-              <div class="row">
-                <div class="col-sm-12 form-group">
-                  <button class="btn btn-primary pull-right" type="submit" style="margin-top:10px;">Enviar</button>
-                  <!-- Add the action name - value pair -->
-                  <input type="hidden" name="action" value="contact">
-                </div>
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <button class="btn btn-primary pull-right" type="submit" style="margin-top:10px;">Enviar</button>
+                <!-- Add the action name - value pair -->
+                <input type="hidden" name="action" value="contact">
               </div>
-            
+            </div>
+
           </div>
         </form>
       </div>
