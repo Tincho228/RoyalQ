@@ -173,7 +173,7 @@
                     style="font-weight:bold; font-size:20px">10%</span> de descuento en comisiones. Ingresá y retirá tu
                   dinero las
                   <strong>24 hs</strong></p>
-                <a href="https://accounts.binance.com/es-LA/register?ref=L3UEOOFA" class="btn  btn-warning text-dark"
+                <a href="https://accounts.binance.com/es-LA/register?ref=<?php echo $selected_binance_link ?>" class="btn  btn-warning text-dark"
                   style="border-radius:25px;">Descarga la app</a>
               </div>
             </div></i>
@@ -185,7 +185,7 @@
               <div class="card-body">
                 <h5 class="card-title">Royal Q</h5>
                 <p class="card-text">Crea tu cuenta gratuita en RoyalQ Bot.</p>
-                <a href="https://raqsy.com/s/STB4Y" target="_blank" class="btn btn-info"
+                <a href="https://raqsy.com/s/<?php echo $selected_qbot_link ?>" target="_blank" class="btn btn-info"
                   style="border-radius:25px;">Registrate</a>
               </div>
             </div>
@@ -212,7 +212,7 @@
             <div class="card-body">
               <h5 class="card-title">Soporte</h5>
               <p class="card-text">Pedi la ayuda de un asesor.</p>
-              <a href="#" class="btn btn-dark" style="border-radius:25px;">Solicita
+              <a href="" class="btn btn-dark" style="border-radius:25px;">Solicita
                 ayuda</a>
             </div>
           </div>
@@ -266,7 +266,7 @@
     </div>
 
     <!--  Contact section-->
-    <div class="container-fluid bg-light">
+    <div class="container-fluid bg-light" style="padding-top:30px;padding-bottom:20px;">
       <h2 id="contactUs" class="text-center">Contacto</h2>
       <div class="row justify-content-center">
         <form action="./index.php" method="POST">
@@ -302,7 +302,7 @@
 
             <div class="row">
               <div class="col-sm-12 form-group">
-                <button class="btn btn-primary pull-right" type="submit" style="margin-top:10px;">Enviar</button>
+                <button class="btn btn-dark pull-right" type="submit" style="margin-top:10px;">Enviar</button>
                 <!-- Add the action name - value pair -->
                 <input type="hidden" name="action" value="contact">
               </div>

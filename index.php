@@ -179,20 +179,17 @@ switch ($action) {
         $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_STRING);
         $phone = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_STRING);
         $message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
-        $email_from = "Sitio Web";
-        $email_subject = "Consulta de ".$name;
-        $email_body = "Nombre: $name.\n".
-        "Email: $email.\n".
-        "Mensaje: $message.\n"; 
-        $to = "consultas@royalq-mundial.com";
-        $headers = "De: $email_from \r\n";
-        $headers.= "Responder a: $email \r\n";
-        mail($to, $email_subject, $email_body, $headers);
-        header("location: index.php");
-        echo $name;
-        echo $email;
-        echo $phone;
-        echo $message;
+        // $selected_email = filter_input(INPUT_POST, 'selected_email', FILTER_SANITIZE_STRING);
+        // $email_from = "Sitio Web";
+        // $email_subject = "Consulta de ".$name;
+        // $email_body = "Nombre: $name.\n".
+        // "Email: $email.\n".
+        // "Mensaje: $message.\n"; 
+        // $to = "consultas@royalq-mundial.com";
+        // $headers = "De: $email_from \r\n";
+        // $headers.= "Responder a: $email \r\n";
+        // mail($to, $email_subject, $email_body, $headers);
+        // header("location: index.php");
         break;
     case'activate':
         $user_id = filter_input(INPUT_POST, 'user_id', FILTER_SANITIZE_STRING);
@@ -221,6 +218,12 @@ switch ($action) {
     default:
         // chequear client selected y editar index.php
         // create the administrator
+        $selected_name = "Mariano Galdeano";
+        $selected_phone ="2604375615";
+        $selected_binance_link = "L3UEOOFA";
+        $selected_qbot_link ="2JBS4";
+        $selected_email = "consultas@royalq-mundial.com";
+
         include './views/home.php';
 }
 
