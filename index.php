@@ -216,11 +216,12 @@ switch ($action) {
     case 'template':
         include "./views/template.php";
         break;
-        case 'tutorials':
-            include "./views/tutorials.php";
-            break;
+    case 'template':
+        include "./views/template.php";
+        break;
+    case 'tutorials':
+        include "./views/tutorials.php";
     default:
-        
         // chequear client selected y editar index.php
         // create the administrator
         $selected_name = "Mariano Galdeano";
@@ -236,6 +237,7 @@ switch ($action) {
         // $selected_email = "consultas@royalq-mundial.com";
 
         include './views/home.php';
+        break;
 }
 
 ?>

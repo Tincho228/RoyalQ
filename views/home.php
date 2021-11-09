@@ -33,6 +33,8 @@
   <div class="container-fluid bg-highlight">
     <!-- Nav bar -->
     <?php include "./common/header.php" ?>
+    <!-- Modal of Contacts -->
+    <?php include './views/modal-contact.php' ?>
     <!-- Main title -->
     <div class="row font-title">
       <div class="col  text-light text-center " style="padding:50px 25px">

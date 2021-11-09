@@ -11,7 +11,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
           <li class="nav-item">
-            <a class="nav-link text-light" aria-current="page" href="index.php">Inicio</a>
+            <a class="nav-link text-light" aria-current="page" href="./index.php">Inicio</a>
           </li>
 
           <li class="nav-item">
@@ -32,7 +32,7 @@
 
           <!--  Admin link  -->
           <li class="nav-item">
-            <a class="nav-link text-light" href="#"><i class="fas fa-user"></i> Log in</a>
+            <a class="nav-link text-light" href="./accounts/index.php?"><i class="fas fa-user"></i> Log in</a>
           </li>
         </ul>
         <!-- <span class="navbar-text">
@@ -42,5 +42,5 @@
     </div>
   </nav>
 </div>
-<!-- Modal of Contacts -->
-<?php include './views/modal-contact.php' ?>
+
+
