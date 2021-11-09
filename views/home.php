@@ -174,7 +174,7 @@
                   dinero las
                   <strong>24 hs</strong></p>
                 <a href="https://accounts.binance.com/es-LA/register?ref=<?php echo $selected_binance_link ?>" class="btn  btn-warning text-dark"
-                  style="border-radius:25px;">Descarga la app</a>
+                  style="border-radius:25px;">Registrate</a>
               </div>
             </div></i>
           </div>
@@ -196,10 +196,10 @@
               <i class="fas fa-link" style="font-size:50px; margin-top:20px; color:rgb(112 48 160)"></i>
               <div class="card-body">
                 <h5 class="card-title">Vinculá</h5>
-                <p class="card-text">Crea tu cuenta totalmente gratis con la que podras controlar tus inversiones las
-                  <strong>24 hs</strong></p>
+                <p class="card-text">Segui nuestros tutoriales, activá y vincula el bot para comenzar a trabajar
+                  </p>
                 <a href="#contactUs" class="btn btn-info"
-                  style="border-radius:25px; background-color:rgb(112 48 160)">Vincula tu
+                  style="border-radius:25px; background-color:rgb(112 48 160)">Vinculá tu
                   cuenta</a>
               </div>
             </div>

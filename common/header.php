@@ -11,15 +11,14 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
           <li class="nav-item">
-            <a class="nav-link active-highlight" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link text-light" aria-current="page" href="index.php">Inicio</a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link text-light" href="#"><i class="far fa-question-circle"></i> Preguntas frecuentes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="https://api.whatsapp.com/send?phone=54<?php echo $selected_phone ?>"
-              target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+            <a class="nav-link text-light" href="index.php?action=tutorials"><i class="fas fa-book"></i> Tutoriales</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light"
@@ -45,4 +44,3 @@
 </div>
 <!-- Modal of Contacts -->
 <?php include './views/modal-contact.php' ?>
-<?php include './views/modal-thankYou.php' ?>

@@ -33,7 +33,15 @@
         <div class="row justify-content-center bg-light" style="padding: 25vh 0px;">
             <div class="col-sm-12 col-md-6 col-lg-8 text-center">
                 <!-- Main title -->
-                
+                <div class="d-flex align-items-end justify-content-center">
+                <img  src="./images/logo.png" alt="email icon" style="width:60px;margin-right:10px;">
+                <h1 class="font-title">ROYALQ</h1>
+                </div>
+                <hr class="bg-secondary">
+                <h1 class="text-center font-body" style="margin:60px 0px;">Gracias por tu Mensaje. Un asesor se pondra en contacto a
+                    la brevedad</h1>
+                <hr class="bg-secondary">
+                <a class="btn btn-primary" href="index.php">Volver</a>
             </div>
         </div>
     </div>

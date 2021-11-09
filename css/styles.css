@@ -73,6 +73,13 @@ html {
 .btn-footer:focus{
     outline:transparent !important;
 }
+.caption {
+    margin:0px;
+    background-color:gray;
+    padding:5px;;
+    font-size: 19px;
+    text-align:left;
+}
 
 /* ANIMATIONS */
 .blink {
