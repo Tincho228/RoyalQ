@@ -24,6 +24,11 @@
                             placeholder="ejemplo@mail.com.ar" required>
                     </div>
                     <div class="form-group">
+                        <label for="phone" class="col-form-label">Telefono :</label>
+                        <input type="text" name="phone" class="form-control" id="email"
+                            placeholder="Telefono" required>
+                    </div>
+                    <div class="form-group">
                         <label for="message" class="col-form-label">Mensaje :</label>
                         <textarea class="form-control" name="message" id="message"
                             placeholder="Ingrese aqui su consulta" required></textarea>
