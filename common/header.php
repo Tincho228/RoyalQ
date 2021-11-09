@@ -42,5 +42,6 @@
     </div>
   </nav>
 </div>
-
+<!-- Modal of Contacts -->
+<?php include './views/modal-contact.php' ?>
 

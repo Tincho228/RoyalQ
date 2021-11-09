@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Gracias</title>
+    <title>Admin</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,7 +29,7 @@
 <body>
     <div class="container-fluid bg-highlight">
         <!-- Nav bar -->
-        <?php require "../common/header.php" ?>
+        <?php require $_SERVER["DOCUMENT_ROOT"]."/royalq/common/header.php";?>
         <div class="row justify-content-center bg-light" style="padding: 25vh 0px;">
             <div class="col-sm-12 col-md-6 col-lg-8 text-center">
                 <!-- Main title -->
