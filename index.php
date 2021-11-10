@@ -229,10 +229,10 @@ switch ($action) {
     default:
         // register new admin
 
-        $cl_username="gaby1234";
-        $cl_password="Gabriel.3030";
-        $hashedPassword = password_hash($cl_password, PASSWORD_DEFAULT);
-        regClient($cl_username, $hashedPassword );
+        // $cl_username="gaby1234";
+        // $cl_password="Gabriel.3030";
+        // $hashedPassword = password_hash($cl_password, PASSWORD_DEFAULT);
+        // regClient($cl_username, $hashedPassword );
         
         // chequear client selected y editar index.php
         // create the administrator
