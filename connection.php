@@ -5,8 +5,9 @@
 function gdConnect(){
     $server = 'localhost';
     $dbname= 'gdeportivas'; // ganancia_gdeportivas
-    $username = 'iClient'; // ganancia_iClient
-    $password = 'Y(1.XJx4rpl/3i/H';
+    //$dbname= 'ganancia_gdeportivas'; // ganancia_gdeportivas habilitar cuando se hace el link
+    $username = 'ganancia_iClient'; 
+    $password = 'tsIa0H=vd1f^';
     $dsn = 'mysql:host='.$server.';dbname='.$dbname;
     $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
 

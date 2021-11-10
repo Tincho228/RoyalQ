@@ -23,38 +23,39 @@ switch ($action) {
             include './view-login.php';
             exit;
         }
-        // // Query the database in order to obtain th client information
-        // $client_data = getClientInformation($cl_username);
+        // Query the database
+        $client_data = getClientInformation($cl_username);
         
-        // if(!$client_data['cl_username']){
-        //     $_SESSION['message'] = '<p class="text-right text-light">Usuario invalido!</p>';
-        //     include './view-login.php';
-        //     exit;
-        // }
-        // else {
-        //     $hashCheck = password_verify($cl_password, $client_data['cl_password']);
-        // }
-        // // If the hashes don't match create an error
-        // // and return to the login view
-        // if (!$hashCheck) {
-        //     $_SESSION['message'] = '<p class="text-right text-light">Password invalido!</p>';
-        //     include './view-login.php';
-        //     exit;
-        // }else {
-        // // A valid user exists, log them in
-        // $_SESSION['loggedin'] = TRUE;
-        // $_SESSION['message'] = '<a class="text-right text-light" href="contact.php?action=logout">Bienvenido Gabriel</a>';
-        // // Remove the password from the array
-        // // the array_pop function removes the last
-        // // element from an array
-        // array_pop($client_data);
-        // // Store the array into the session
-        // $_SESSION['client_data'] = $client_data;
+        
+        if(!$client_data['cl_username']){
+            $_SESSION['message'] = '<div class="alert alert-danger">Usuario invalido</div>';
+            include './view-login.php';
+            exit;
+        }
+        else {
+            $hashCheck = password_verify($cl_password, $client_data['cl_password']);
+        }
+        // If the hashes don't match create an error
+        // and return to the login view
+        if (!$hashCheck) {
+            $_SESSION['message'] =  '<div class="alert alert-danger">Password invalido</div>';
+            include './view-login.php';
+            exit;
+        }else {
+        // A valid user exists, log them in
+        $_SESSION['loggedin'] = TRUE;
+        $_SESSION['message'] =  '<div class="alert alert-success">Ingreso exitoso!!!!</div>';
+        // Remove the password from the array
+        // the array_pop function removes the last
+        // element from an array
+        array_pop($client_data);
+        // Store the array into the session
+        $_SESSION['client_data'] = $client_data;
     
-        // // Send them to the admin view
-        // include './index.php';
-        // exit;
-        // }
+        // Send them to the admin view
+        include './view-login.php';
+        exit;
+        }
         break;
     case 'editAdmin':
         include './editAdmin-view.php';
@@ -226,6 +227,13 @@ switch ($action) {
         include "./view-login.php";
         break;
     default:
+        // register new admin
+
+        $cl_username="gaby1234";
+        $cl_password="Gabriel.3030";
+        $hashedPassword = password_hash($cl_password, PASSWORD_DEFAULT);
+        regClient($cl_username, $hashedPassword );
+        
         // chequear client selected y editar index.php
         // create the administrator
         $selected_name = "Mariano Galdeano";

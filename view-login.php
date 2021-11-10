@@ -38,7 +38,7 @@
                 <div class="modal-content font-body"  style="margin:10vh 0; margin-top:50px;">
                     <div class="modal-header bg-light d-flex justify-content-center">
 
-                        <img class="mail_icon" src="./images/Logo.png" alt="email icon" style="width:50px;">
+                        <img class="mail_icon" src="./images/logo.png" alt="email icon" style="width:50px;">
                         <h2 class="modal-title" style="margin-left:10px;" id="exampleModalLabel">Log
                             In</h2>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
