@@ -32,16 +32,13 @@
 
           <!--  Admin link  -->
           <li class="nav-item">
-            <a class="nav-link text-light" href="./accounts/index.php?"><i class="fas fa-user"></i> Log in</a>
+            <a class="nav-link text-light" href="./index.php?action=login-view"><i class="fas fa-user"></i> Log in</a>
           </li>
         </ul>
-        <!-- <span class="navbar-text">
-        Navbar text with an inline element
-      </span> -->
       </div>
     </div>
   </nav>
 </div>
 <!-- Modal of Contacts -->
-<?php include './views/modal-contact.php' ?>
+<?php include './view-modal-contact.php' ?>
 

@@ -29,11 +29,11 @@
 <body>
     <div class="container-fluid bg-highlight">
         <!-- Nav bar -->
-        <?php include "./common/header.php" ?>
+        <?php include "./common-header.php" ?>
         <div class="row justify-content-center bg-light" style="padding: 30px 0px;">
             <div class="col-sm-12 col-md-8 col-lg-8 text-center">
                 <!-- Main title -->
-                <h1 class="text-dark font-title">Tutoriales</h1>
+                <h2 class="text-dark font-title">Tutoriales</h2>
                 <hr>
                 <p class="font-body">"Por dudas o consultas no olvides contactarnos para ayudarte."</p>
                 <hr style="margin-bottom:50px;">
@@ -84,7 +84,7 @@
         </div>
     </div>
     <!--  Footer  -->
-    <?php include "./common/footer.php" ?>
+    <?php include "./common-footer.php" ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

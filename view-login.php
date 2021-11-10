@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 
     <!-- Favicon Code -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -29,23 +29,24 @@
 <body>
     <div class="container-fluid bg-highlight">
         <!-- Nav bar -->
-        <?php require $_SERVER["DOCUMENT_ROOT"]."/royalq/common/header.php";?>
-        <div class="row justify-content-center bg-light" style="padding: 25vh 0px;">
-            <div class="col-sm-12 col-md-6 col-lg-8 text-center">
+        <?php include "./common-header.php";?>
+        <div class="row justify-content-center bg-light">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <!-- Main title -->
-                <h1>Welcome to admin PHP</h1>
+                <h1 class="text-center font-title" style="margin-top:50px;">Administrador</h1>
 
-                <div class="modal-content">
-                    <div class="modal-header bg-dark align-items-center">
-                        <img class="mail_icon" src="./Images/Logo Favicon.png" alt="email icon">
-                        <h5 class="modal-title text-white" style="margin-left:10px;" id="exampleModalLabel">Log
-                            In</h5>
+                <div class="modal-content font-body"  style="margin:10vh 0; margin-top:50px;">
+                    <div class="modal-header bg-light d-flex justify-content-center">
+
+                        <img class="mail_icon" src="./images/Logo.png" alt="email icon" style="width:50px;">
+                        <h2 class="modal-title" style="margin-left:10px;" id="exampleModalLabel">Log
+                            In</h2>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true" class="text-white">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form action="contact.php" method="post">
+                        <form action="./index.php" method="post">
                             <p class="text-primary">Solo acceso de administrador</strong></p>
                             <div class="form-group">
                                 <label for="cl_username" class="col-form-label">Usuario :</label>
@@ -57,6 +58,12 @@
                                 <input type="password" name="cl_password" class="form-control" id="cl_password"
                                     required>
                             </div>
+                            
+                            <?php if(isset($_SESSION['message'])){
+                                    echo $_SESSION['message'];
+                                   } 
+                            ?>
+                            
                             <div class="modal-footer">
                                 <button type="submit" class="btn btn-primary">Log In</button>
                                 <!-- Add the action name - value pair -->
@@ -69,7 +76,7 @@
         </div>
     </div>
     <!--  Footer  -->
-    <?php include "../common/footer.php" ?>
+    <?php include "./common-footer.php" ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

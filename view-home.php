@@ -32,7 +32,7 @@
   <!-- Hero -->
   <div class="container-fluid bg-highlight">
     <!-- Nav bar -->
-    <?php include "./common/header.php" ?>
+    <?php include "./common-header.php" ?>
     <!-- Main title -->
     <div class="row font-title">
       <div class="col  text-light text-center " style="padding:50px 25px">
@@ -315,7 +315,7 @@
   </div>
 
   <!--  Footer  -->
-  <?php include "./common/footer.php" ?>
+  <?php include "./common-footer.php" ?>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
