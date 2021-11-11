@@ -66,9 +66,14 @@
                                         value = <?php if(isset($user_info['user_cellphone'])){echo $user_info['user_cellphone'];}?>>
                                 </div>
                                 <div class="form-group">
-                                    <label for="user_link" class="col-form-label">Usuario de GD :</label>
-                                    <input type="text" name="user_link" class="form-control" id="user_link"
-                                        value = <?php if(isset($user_info['user_link'])){echo $user_info['user_link'];}?>>
+                                    <label for="user_binance_link" class="col-form-label">Usuario de Binance :</label>
+                                    <input type="text" name="user_binance_link" class="form-control" id="user_binance_link"
+                                        value = <?php if(isset($user_info['user_binance_link'])){echo $user_info['user_binance_link'];}?>>
+                                </div>
+                                <div class="form-group">
+                                    <label for="user_royal_link" class="col-form-label">Usuario de Royalq :</label>
+                                    <input type="text" name="user_royal_link" class="form-control" id="user_royal_link"
+                                        value = <?php if(isset($user_info['user_royal_link'])){echo $user_info['user_royal_link'];}?>>
                                 </div>
                                 <?php
                                     if (isset($_SESSION['message_addUser'])) {
