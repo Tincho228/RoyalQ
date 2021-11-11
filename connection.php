@@ -4,7 +4,7 @@
 */ 
 function gdConnect(){
     $server = 'localhost';
-    $dbname= 'gdeportivas'; // ganancia_gdeportivas
+    $dbname= 'ganancia_gdeportivas'; // ganancia_gdeportivas
     //$dbname= 'ganancia_gdeportivas'; // ganancia_gdeportivas habilitar cuando se hace el link
     $username = 'ganancia_iClient'; 
     $password = 'tsIa0H=vd1f^';

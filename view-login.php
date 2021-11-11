@@ -73,6 +73,9 @@
                     </div>
                 </div>
             </div>
+            <?php if(isset($_SESSION["loggedin"])){
+                echo "loggedin";
+            } ?>
         </div>
     </div>
     <!--  Footer  -->
