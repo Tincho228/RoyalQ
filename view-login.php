@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Admin</title>
+    <title>Login</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -33,13 +33,10 @@
         <div class="row justify-content-center bg-light">
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <!-- Main title -->
-                <h1 class="text-center font-title" style="margin-top:50px;">Administrador</h1>
 
-                <div class="modal-content font-body"  style="margin:10vh 0; margin-top:50px;">
+                <div class="modal-content"  style="margin:10vh 0; margin-top:50px;">
                     <div class="modal-header bg-light d-flex justify-content-center">
-
-                        <img class="mail_icon" src="./images/logo.png" alt="email icon" style="width:50px;">
-                        <h2 class="modal-title" style="margin-left:10px;" id="exampleModalLabel">Log
+                        <h2 class="modal-title font-title" style="margin-left:10px;" id="exampleModalLabel">Log
                             In</h2>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true" class="text-white">&times;</span>
@@ -50,7 +47,7 @@
                             <p class="text-primary">Solo acceso de administrador</strong></p>
                             <div class="form-group">
                                 <label for="cl_username" class="col-form-label">Usuario :</label>
-                                <input type="text" name="cl_username" class="form-control" id="cl_username" required
+                                <input type="text" name="cl_username" class="form-control" id="cl_username" value="<?php if(isset($client_data['cl_username'])) {echo $client_data['cl_username'];} ?>" required
                                     autocomplete="off">
                             </div>
                             <div class="form-group">
@@ -65,17 +62,31 @@
                             ?>
                             
                             <div class="modal-footer">
-                                <button type="submit" class="btn btn-primary">Log In</button>
-                                <!-- Add the action name - value pair -->
-                                <input type="hidden" name="action" value="login">
+                                <?php 
+                                if(isset($_SESSION['loggedin'])){
+                                    if($_SESSION['loggedin'] === true){
+                                        echo '<a class="btn btn-success"  href="./index.php?action=account"><i class="fas fa-user-circle"></i> Ir a mi cuenta</a>
+                                        <a class="btn btn-danger"  href="./index.php?action=logout"><i class="fas fa-sign-out-alt"></i> Cerrar Sesion</a>';
+                                    }
+                                        
+                                    
+                                }else{
+                                    echo '<button type="submit" class="btn btn-primary">Log In</button>
+                                        <a href="./index.php" class="btn btn-dark">Cancelar</a>
+                                        <!-- Add the action name - value pair -->
+                                        <input type="hidden" name="action" value="login">';
+                                 } ?>
+                                
+                                
+
                             </div>
+                            <!-- <a class="btn btn-success"  href="./index.php?action=account"><i class="fas fa-user-circle"></i> Ir a mi cuenta</a>
+                            <a class="btn btn-danger"  href="./index.php?action=logout"><i class="fas fa-sign-out-alt"></i>Cerrar Sesion</a> -->
                         </form>
                     </div>
                 </div>
+                
             </div>
-            <?php if(isset($_SESSION["loggedin"])){
-                echo "loggedin";
-            } ?>
         </div>
     </div>
     <!--  Footer  -->

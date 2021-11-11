@@ -1,6 +1,7 @@
 <div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-dark" style="padding:8px 15px;">
-    <div class="container d-flex justify-content-end">
+    <div class="container d-flex justify-content-between">
+      <a class="navbar-brand" href="./index.php"><img src="./images/logo.png" alt="Logo de RoyalQ" style="width:40px;"> ROYALQ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <!-- <span class="navbar-toggler-icon"></span> -->
@@ -27,7 +28,8 @@
           </li>
           <li class="nav-item">
             <!-- Button trigger modal -->
-            <a class="nav-link text-light" data-toggle="modal" data-target="#contact-modal"><i class="fas fa-envelope-open-text"></i> Contáctanos</a>
+            <a class="nav-link text-light" data-toggle="modal" data-target="#contact-modal"><i
+                class="fas fa-envelope-open-text"></i> Contáctanos</a>
           </li>
 
           <!--  Admin link  -->
@@ -41,4 +43,3 @@
 </div>
 <!-- Modal of Contacts -->
 <?php include './view-modal-contact.php' ?>
-

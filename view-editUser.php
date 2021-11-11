@@ -32,7 +32,7 @@
     <img src="Images/bk_hero_image.jpg" alt="" class="background_img">
     <header>
       <!-- NAV -->
-      <?php include './header.php'?>
+      <?php include './common-header.php'?>
     </header>
   </div>
   <!-- MAIN -->
@@ -92,7 +92,7 @@
     </main>
   </div>
   <!--      FOOTER         -->
-  <?php include './footer.php'?>
+  <?php include './common-footer.php'?>
   <?php unset($_SESSION['message_addUser']); ?>
 
   <!-- Optional JavaScript -->

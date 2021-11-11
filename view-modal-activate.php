@@ -13,7 +13,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="contact.php" method="post">
+                <form action="index.php" method="post">
                     <h5 class="text-center" id="activateModal_title"></h5>
                     
                     <div class="modal-footer">
