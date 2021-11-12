@@ -150,34 +150,33 @@ switch ($action) {
         break;
     case 'edit':
         $user_id = filter_input(INPUT_GET, 'user_id', FILTER_SANITIZE_STRING);
-        echo $user_id;
         $user_info = getUserInfo($user_id);
-        include './view_editUser.php';
+        include './view-editUser.php';
         break;
     case 'editUser':
-        $user_id = filter_input(INPUT_POST, 'user_id', FILTER_SANITIZE_STRING);
+        $user_id = filter_input(INPUT_POST, 'user_id', FILTER_SANITIZE_NUMBER_INT);
         $user_firstName = filter_input(INPUT_POST, 'user_firstName', FILTER_SANITIZE_STRING);
         $user_lastName = filter_input(INPUT_POST, 'user_lastName', FILTER_SANITIZE_STRING);
         $user_cellphone = filter_input(INPUT_POST, 'user_cellphone', FILTER_SANITIZE_STRING);
-        $user_link = filter_input(INPUT_POST, 'user_link', FILTER_SANITIZE_STRING);
+        $user_binance_link = filter_input(INPUT_POST, 'user_binance_link', FILTER_SANITIZE_STRING);
+        $user_royal_link = filter_input(INPUT_POST, 'user_royal_link', FILTER_SANITIZE_STRING);
         // Check for missing data
-        if (empty($user_firstName) || empty($user_lastName) || empty($user_cellphone) || empty($user_link)) {
-            $_SESSION['message_addUser'] = '<p class="text-danger">Completa todos los campos</p>';
-            include './editUser-view.php';
+        if (empty($user_firstName) || empty($user_lastName) || empty($user_cellphone) || empty($user_binance_link) || empty($user_royal_link) ) {
+            $_SESSION['message_addUser'] = '<div class="alert alert-danger">Completa todos los campos</div>';
+            include './view-editUser.php';
             exit;
             }
         // send data to the model
-        $regOutcome = updateUser($user_id, $user_firstName, $user_lastName, $user_cellphone, $user_link);
+        $regOutcome = updateUser($user_id, $user_firstName, $user_lastName, $user_cellphone, $user_binance_link, $user_royal_link );
         // Check if deletion is successfull
         if($regOutcome === 1){
             $users_list = getUsersList();
-            $_SESSION['message_addUser'] = '<p class="text-warning bg-dark text-center">El usuario '. $user_firstName .' ha sido actualizado</p>';
-            header("location:./contact.php?action=account");
+            $_SESSION['message_addUser'] = '<div class="alert alert-success">El usuario '. $user_firstName .' ha sido actualizado</div>';
+            header("location:./index.php?action=account");
         }
         break;
     case 'delete':
         $user_id = filter_input(INPUT_POST, 'user_id', FILTER_SANITIZE_STRING);
-        echo $user_id;
         $regOutcome = deleteUser($user_id);
         // Check if deletion is successfull
         if($regOutcome === 1){
@@ -214,14 +213,12 @@ switch ($action) {
                 $current_user_id = $user['user_id'];
             }
         }
-        echo $current_user_id;
         $regOutcome = deactivate_current_user($current_user_id);
-        echo $regOutcome;
         if($regOutcome === 1){
             $result = activate_new_user($user_id);  
             if($result === 1){
                 $users_list = getUsersList();
-                $_SESSION['message_addUser'] = '<div class="alert alert-success bg-dark text-center">El usuario ha sido activado</div>';
+                $_SESSION['message_addUser'] = '<div class="alert alert-success text-center">El usuario ha sido activado</div>';
                 header("location:./index.php?action=account");
             }
         }

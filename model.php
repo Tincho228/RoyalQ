@@ -134,7 +134,7 @@ function getUserInfo($user_id){
     // Create a connection object using the phpmotors connection function
     $db = gdConnect();
     // The SQL statement
-    $sql = 'SELECT user_id, user_firstName, user_lastName, user_cellphone, user_link FROM users WHERE user_id = :user_id';
+    $sql = 'SELECT * FROM users WHERE user_id = :user_id';
     // Create the prepared statement using the phpmotors connection
     $stmt = $db->prepare($sql);
     // The next four lines replace the placeholders in the SQL
@@ -149,11 +149,11 @@ function getUserInfo($user_id){
     $stmt->closeCursor();
     return $clientData;
 }
-function updateUser($user_id, $user_firstName, $user_lastName, $user_cellphone, $user_link){
+function updateUser($user_id, $user_firstName, $user_lastName, $user_cellphone, $user_binance_link, $user_royal_link){
     $db = gdConnect();
     // The SQL statement
-    $sql = 'UPDATE users SET user_firstName = :user_firstName, user_lastName = :user_lastName, 
-	user_cellphone = :user_cellphone, user_link = :user_link WHERE user_id = :user_id';
+    $sql = 'UPDATE users SET user_firstName =:user_firstName, user_lastName =:user_lastName, 
+	user_cellphone =:user_cellphone, user_binance_link =:user_binance_link, user_royal_link =:user_royal_link WHERE user_id = :user_id';
     // Create the prepared statement using the phpmotors connection
     $stmt = $db->prepare($sql);
     // The next four lines replace the placeholders in the SQL
@@ -163,7 +163,8 @@ function updateUser($user_id, $user_firstName, $user_lastName, $user_cellphone, 
     $stmt->bindValue(':user_firstName', $user_firstName, PDO::PARAM_STR); 
     $stmt->bindValue(':user_lastName', $user_lastName, PDO::PARAM_STR); 
     $stmt->bindValue(':user_cellphone', $user_cellphone, PDO::PARAM_STR); 
-    $stmt->bindValue(':user_link', $user_link, PDO::PARAM_STR); 
+    $stmt->bindValue(':user_binance_link', $user_binance_link, PDO::PARAM_STR); 
+    $stmt->bindValue(':user_royal_link', $user_royal_link, PDO::PARAM_STR); 
     // Insert the data
     $stmt->execute();
     // Ask how many rows changed as a result of our insert

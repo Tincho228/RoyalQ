@@ -5,7 +5,6 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header bg-dark align-items-center">
-                <img class="mail_icon" src="./Images/Logo Favicon.png" alt="email icon">
                 <h5 class="modal-title text-white" style="margin-left:10px;" id="exampleModalLabel">Activar usuario.
                     </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">

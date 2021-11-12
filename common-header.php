@@ -34,7 +34,19 @@
 
           <!--  Admin link  -->
           <li class="nav-item">
-            <a class="nav-link text-light" href="./index.php?action=login-view"><i class="fas fa-user"></i> Log in</a>
+          <?php 
+              if(isset($_SESSION['loggedin'])){
+                  if($_SESSION['loggedin'] === true){
+                      echo '<a class="nav-link text-warning" href="./index.php?action=logout"><i class="fas fa-sign-out-alt"></i> Cerrar Sesion</a>';
+                  }                      
+              }else{
+                      echo '<a class="nav-link text-light" href="./index.php?action=login-view"><i class="fas fa-user"></i> Log in</a>';
+              } ?>
+
+
+
+
+            
           </li>
         </ul>
       </div>
