@@ -39,8 +39,7 @@
         <h1 class="animate__animated animate__fadeInUp display-4">Royal Q Robot</h1>
         <h1 class="animate__animated animate__fadeInUp">Trade <span
             style="color:#ffd85d; font-weight:bold">Binance</span></h1>
-        <a href="https://raqsy.com/s/2JBS4" target="_blank" type="button" class="btn btn-lg btn-violet font-body "
-          style="margin-top:25px;">Registrate
+        <a href="https://raqsy.com/s/<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_royal_link'];} ?>" target="_blank" type="button" class="btn btn-lg btn-violet font-body" style="margin-top:25px;">Registrate
           Ahora</a>
       </div>
     </div>
@@ -173,8 +172,8 @@
                     style="font-weight:bold; font-size:20px">10%</span> de descuento en comisiones. Ingresá y retirá tu
                   dinero las
                   <strong>24 hs</strong></p>
-                <a href="https://accounts.binance.com/es-LA/register?ref=<?php echo $selected_binance_link ?>" class="btn  btn-warning text-dark"
-                  style="border-radius:25px;">Registrate</a>
+                <a href="https://accounts.binance.com/es-LA/register?ref=<?php if(isset($active_user['user_binance_link'])){echo $active_user['user_binance_link'];} ?>" class="btn  btn-warning text-dark"
+                 target="_blank" style="border-radius:25px;">Registrate</a>
               </div>
             </div></i>
           </div>
@@ -185,7 +184,7 @@
               <div class="card-body">
                 <h5 class="card-title">Royal Q</h5>
                 <p class="card-text">Crea tu cuenta gratuita en RoyalQ Bot.</p>
-                <a href="https://raqsy.com/s/<?php echo $selected_qbot_link ?>" target="_blank" class="btn btn-info"
+                <a href="https://raqsy.com/s/<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_royal_link'];} ?>" target="_blank" class="btn btn-info"
                   style="border-radius:25px;">Registrate</a>
               </div>
             </div>
@@ -212,7 +211,7 @@
             <div class="card-body">
               <h5 class="card-title">Soporte</h5>
               <p class="card-text">Pedi la ayuda de un asesor.</p>
-              <a href="" class="btn btn-dark" style="border-radius:25px;">Solicita
+              <a data-toggle="modal" data-target="#contact-modal" class="btn btn-dark text-light"  style="border-radius:25px;">Solicita
                 ayuda</a>
             </div>
           </div>

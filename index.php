@@ -238,20 +238,15 @@ switch ($action) {
         // $hashedPassword = password_hash($cl_password, PASSWORD_DEFAULT);
         // regClient($cl_username, $hashedPassword );
         
-        // chequear client selected y editar index.php
-        // create the administrator
-        $selected_name = "Mariano Galdeano";
-        $selected_phone ="2604647911";
-        $selected_binance_link = "L3UEOOFA";
-        $selected_qbot_link ="2JBS4";
-        $selected_email = "consultas@royalq-mundial.com";
+        // Get users list and check
 
-        // $selected_name = "Gabriel Sanchez";
-        // $selected_phone ="2604375615";
-        // $selected_binance_link ="55307106";
-        // $selected_qbot_link ="STB4Y";
-        // $selected_email = "consultas@royalq-mundial.com";
-
+        $users_list = getUsersList();
+        $active_user ="";
+        foreach($users_list as $key => $user){
+            if($user['user_status'] === "1" ){
+                $active_user = $user;
+            }
+        }
         include './view-home.php';
         break;
 }

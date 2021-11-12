@@ -37,7 +37,7 @@
           <p class="text-center text-light">Seguinos en redes sociales</p>
           <hr class="bg-light">
           <div class="d-flex justify-content-center">
-            <a href="https://api.whatsapp.com/send?phone=54<?php echo $selected_phone ?>" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>" target="_blank">
               <i class="fab fa-whatsapp text-light" style="font-size: 40px; margin:0px 5px;"></i>
             </a>
             <a href="https://www.facebook.com/BLOG-De-Ganancias-Argentina-103371018178827/?modal=admin_todo_tour&notif_id=1599607581917840&notif_t=page_invite&ref=notif" target="_blank">

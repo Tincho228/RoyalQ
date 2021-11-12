@@ -37,7 +37,16 @@
           <?php 
               if(isset($_SESSION['loggedin'])){
                   if($_SESSION['loggedin'] === true){
-                      echo '<a class="nav-link text-warning" href="./index.php?action=logout"><i class="fas fa-sign-out-alt"></i> Cerrar Sesion</a>';
+                      echo '<div class="dropdown">
+                      <a class="nav-link text-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mi cuenta
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="./index.php?action=account"><i class="fas fa-user-circle"></i> Administracion</a>
+                        <a class="dropdown-item" href="./index.php?action=logout"><i class="fas fa-sign-out-alt"></i> Cerrar Sesion</a>
+                      </div>
+                    </div>';
+                     // echo '<a class="nav-link text-warning" href="./index.php?action=logout"><i class="fas fa-sign-out-alt"></i> Cerrar Sesion</a>';
                   }                      
               }else{
                       echo '<a class="nav-link text-light" href="./index.php?action=login-view"><i class="fas fa-user"></i> Log in</a>';
