@@ -201,7 +201,7 @@ switch ($action) {
         $headers = "De: $email_from \r\n";
         $headers.= "Responder a: $email \r\n";
         mail($to, $email_subject, $email_body, $headers);
-        include "./views/thankYou.php";
+        include "./view-thankYou.php";
         break;
     case 'activate':
         $user_id = filter_input(INPUT_POST, 'user_id', FILTER_SANITIZE_STRING);

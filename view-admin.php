@@ -43,7 +43,7 @@
                         <table class="table text-center">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th scope="col">#</th>
+                                    
                                     <th scope="col">Nombre</th>
                                     <th scope="col">Apellido</th>
                                     <th scope="col">Usuario</th>
@@ -52,7 +52,7 @@
                             </thead>
                             <tbody class="table-light">
                                 <tr>
-                                    <th scope="row">1</th>
+                                    
                                     <td>Gabriel</td>
                                     <td>Sanchez</td>
                                     <td><?php  echo $_SESSION['client_data']['cl_username']; ?></td>
@@ -71,7 +71,7 @@
                         <table class="table text-center">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th scope="col">#</th>
+                                    
                                     <th scope="col">Nombre</th>
                                     <th scope="col">Apellido</th>
                                     <th scope="col">Activar</th>
@@ -85,7 +85,6 @@
                            foreach($users_list as $key => $user){
                                 ?>
                                 <tr>
-                                    <th scope="row"><?php echo $key?></th>
                                     <td><?php echo $user['user_firstName'] ?></td>
                                     <td><?php echo $user['user_lastName'] ?></td>
                                     <td class="text-center"><?php 

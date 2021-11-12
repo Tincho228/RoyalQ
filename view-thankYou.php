@@ -29,8 +29,8 @@
 <body>
     <div class="container-fluid bg-highlight">
         <!-- Nav bar -->
-        <?php include "./common/header.php" ?>
-        <div class="row justify-content-center bg-light" style="padding: 25vh 0px;">
+        <?php include "./common-header.php" ?>
+        <div class="row justify-content-center bg-light" style="padding: 15vh 0px;">
             <div class="col-sm-12 col-md-6 col-lg-8 text-center">
                 <!-- Main title -->
                 <div class="d-flex align-items-end justify-content-center">
@@ -46,7 +46,7 @@
         </div>
     </div>
     <!--  Footer  -->
-    <?php include "./common/footer.php" ?>
+    <?php include "./common-footer.php" ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
