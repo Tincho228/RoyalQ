@@ -16,7 +16,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-light" href="#"><i class="far fa-question-circle"></i> Preguntas frecuentes</a>
+            <a class="nav-link text-light" href="#faq"><i class="far fa-question-circle"></i> Preguntas frecuentes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="index.php?action=tutorials"><i class="fas fa-book"></i> Tutoriales</a>

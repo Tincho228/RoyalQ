@@ -41,28 +41,31 @@
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <!-- 16:9 aspect ratio -->
                         <p class="caption font-body text-light">Registro en Binance</p>
-                        <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
+                        <div class="embed-responsive embed-responsive-16by9"
+                            style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/zMGX8EITYh4"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
-                        
+
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <!-- 16:9 aspect ratio -->
                         <p class="caption font-body text-light">Como registrar en RoyalQ</p>
-                        <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
+                        <div class="embed-responsive embed-responsive-16by9"
+                            style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/noRUTQwldX8"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4" >
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <!-- 16:9 aspect ratio -->
                         <p class="caption font-body text-light">Como activar el bot</p>
-                        <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
+                        <div class="embed-responsive embed-responsive-16by9"
+                            style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/lNbP8JLK_7Y"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -72,7 +75,19 @@
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <!-- 16:9 aspect ratio -->
                         <p class="caption font-body text-light">Como vincular el bot</p>
-                        <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
+                        <div class="embed-responsive embed-responsive-16by9"
+                            style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/66DA06gEiGE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4" id="botBind">
+                        <!-- 16:9 aspect ratio -->
+                        <p class="caption font-body text-light">Plan de compensacion</p>
+                        <div class="embed-responsive embed-responsive-16by9"
+                            style="margin-bottom:20px; box-shadow: 10px 9px 20px #0000008c;">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/82FqhhHxs-g"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -31,9 +31,9 @@
           </div>
         </button>
       </div>
-      <div id="collapseFooter" class="collapse bg-third-color" aria-labelledby="headingOne" data-parent="#accordionExample"
-        style="visibility: visible">
-        <div class="card-body text-light">
+      <div id="collapseFooter" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample"
+        style="visibility: visible;">
+        <div class="card-body-footer text-light">
           <p class="text-center text-light">Seguinos en redes sociales</p>
           <hr class="bg-light">
           <div class="d-flex justify-content-center">

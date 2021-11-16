@@ -108,7 +108,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-8 " style="padding: 30px 30px">
             <h2 style="margin-bottom: 30px;" class="font-title">Que es Royal Q?</h2>
-            <p style="margin-bottom: 30px;"><strong>SOFTWARE DE COMPUTADORA: </strong>RoyalQ trading BOT es un programa
+            <p style="margin-bottom: 30px;" class="font-body"><strong>SOFTWARE DE COMPUTADORA: </strong>RoyalQ trading BOT es un programa
               informático basado en una serie de
               señales de trading de criptomonedas que ayudan a determinar si comprar o vender un par de criptomonedas
               en
@@ -141,7 +141,7 @@
           </div>
           <div class="col-sm-12 col-md-8  " style="padding: 30px 30px">
             <h2 style="margin-bottom:30px" class="font-title"><i class="fas fa-history"></i> Ahorre tiempo y dinero</h2>
-            <p style="margin-bottom:30px"><strong>MISSION:</strong> Los bots comerciales como RoyalQ Crypto a menudo
+            <p style="margin-bottom:30px"  class="font-body"> <strong>MISSION:</strong> Los bots comerciales como RoyalQ Crypto a menudo
               pueden ahorrarle mucho tiempo y son más baratos que contratar expertos humanos. La verdad es que se sabe
               que las criptomonedas son extremadamente volátiles y la mayoría de las veces los precios fluctúan
               drásticamente incluso en minutos. Por lo tanto, en muchos casos, los comerciantes no pueden reaccionar con
@@ -159,7 +159,7 @@
   <div class="container-fluid">
     <div class="row justify-content-center" style="padding:30px 0px">
       <div class="col-sm-12 col-lg-8 text">
-        <h2 class="text-center" style="margin-bottom: 30px;"><i class="fas fa-crop-alt text-highlight"></i> Pasos a
+        <h2 class="text-center font-title" style="margin-bottom: 30px;"><i class="fas fa-crop-alt text-highlight"></i> Pasos a
           seguir</h2>
         <div class="row text-center" style="margin-bottom:30px;">
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
@@ -224,7 +224,7 @@
   <div class="container-fluid">
     <div class="row justify-content-center" style="padding: 30px 0px">
       <div class="col-sm-12 col-lg-8 text-center">
-        <h2 class="text-center" style="margin-bottom: 30px;">Nuestros Servicios</h2>
+        <h2 class="text-center font-title" style="margin-bottom: 30px;">Nuestros Servicios</h2>
         <P class="text-center" style="margin-bottom: 40px;">Te ofrecemos</P>
         <div class="row">
           <div class="col-sm-4">
@@ -294,6 +294,7 @@
                       segura de guardar tus fondos.
 
                     </p>
+                    <hr>
                     <a href="https://accounts.binance.com/es-LA/register?ref=<?php if(isset($active_user['user_binance_link'])){echo $active_user['user_binance_link'];} ?>"
                       class="btn  btn-violet" target="_blank" style="margin:10px 0px ;">Crea tu cuenta en Binance</a>
                     <div>
@@ -324,11 +325,16 @@
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                   <div class="card-body">
-                    <p>Solo tenés que ingresar en la <span>pagina WEB </span>de la plataforma desde la compu o
-                      tu
-                      celular con tu usuario y contraseña.
+                    <p>
+                      Tus ganancias pueden visualizarse de dos maneras: <br>
+                      <ol>
+                        <li>En la pestaña <strong>Billetera</strong> dentro de Binance</li>
+                        <li>En la pestaña <strong>Revenue</strong> en la app del Bot de RoyalQ</li>
+                      </ol>
+                      Siempre desde la comodidad de tu celular o computadora personal.<br>
                       Disponible todos los dias, las 24 horas.
                     </p>
+                    <hr>
                     <div>
                       <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
                       <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
@@ -357,11 +363,22 @@
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                   <div class="card-body">
-                    <p>Podes retirar todos los dias, las 24 horas y sin prohibiciones. El dinero se envia a tu caja de ahorro
-                      vinculada al banco de tu eleccion.
+                    <p>
+                      El dinero siempre estará seguro dentro Binance, el cual cuenta con varios niveles de seguridad
+                      para proteger tus datos.<br>
+
+
+                      En algunos paises no se puede retirar directamente a una cuenta bancaria.
+
+                      Entonces primero debemos enviar la criptomoneda a una billetera local (Bitso, Buenbit, Ripio),
+                      cambiarlas por pesos y luego enviarlas a tu banco.<br>
+
+                      Podes retirar todos los dias, las 24 horas y sin prohibiciones. <br>
+
                       Para recibir tutoriales con ejemplos de retiro o si tenes preguntas, no dudes en
                       consultarnos.</p>
-                      <div>
+                    <hr>
+                    <div>
                       <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
                       <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
                         target="_blank">
@@ -383,18 +400,29 @@
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left" type="button" data-toggle="collapse"
                       data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                      O sea que no tengo que hacer nada para ganar el 20%?
+                      Cuales son las ganancias del bot?
                     </button>
                   </h2>
                 </div>
 
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                   <div class="card-body">
-                    <p>Exacto!! Tus ganancias dependen del tiempo y la cantidad del paquete que inviertas.</p>
+                    <p>Un 10 % mensual en dólares dependiendo del mercado</p>
+                    <hr>
+                    <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                    </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseFour"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
@@ -403,22 +431,31 @@
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
                       data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                      Si la empresa no gana dinero, yo también pierdo?
+                      Siempre se gana, cuáles son los riesgos?
                     </button>
                   </h2>
                 </div>
                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                   <div class="card-body">
-                    <p>Quedate tranquilo por dos razones:<br>
-                      1- Por declaracion privada de la empresa, la misma se compromete al pago diario
-                      acumulativo del
-                      interés. No perdés un centavo.<br>
-                      2- Los balances mensuales de la empresa durante los dos años han sido en promedio del 60%.
+                    <p>No hay riesgo de perder el dinero porque el bot opera en la billetera spot de Binance, no en
+                      futuros. En caso de que una moneda baje mucho, hay que esperar a que recupere el precio. De todas
+                      maneras el bot sigue operando y obteniendo ganancias aunque el precio baje mucho.
                     </p>
+                    <hr>
+                    <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                    </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseFive"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
@@ -427,22 +464,32 @@
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
                       data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                      Hay algún beneficio además del 20%?
+                      Hay algún beneficio además del 10%?
                     </button>
                   </h2>
                 </div>
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                   <div class="card-body">
-                    <p>El 20% es solo el comienzo! Además de poder triplicar tu inversion en 6 meses, podes
-                      ganar
-                      intereses adicionales
-                      de mas del 6 porciento por invitar personas al negocio. Tenes premios por nivel y
-                      organizacion.
+                    <p>Por supuesto tenes la posibilidad de constuir tu red. Se obtienen 30 dólares por cada referido y un 2 % de la ganancia que
+                      obtiene cada asociado.<br>
+                      Mirá el turorial que explica como opera la red y sus beneficios.
                     </p>
+                    <a class="btn btn-link btn-outline-primary" href="./index.php?action=tutorials#botBind">Plan de compensación</a>
+                    <hr>
+                    <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                    </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseSix"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
@@ -467,32 +514,26 @@
                       whatsapp, o mail.
                       Actualmente estamos ayudando a muchas personas a que no pierdan su dinero con la
                       devaluacion.
-                      Siempre hay manera de darle curso a tus ganancias. Tu patrocinador estará para ayudarte a
+                      Siempre hay manera de darle curso a tus ganancias. Un asesor estará para ayudarte a
                       entender
-                      el negocio y
+                      el proceso y
                       tambien a asegurar tu dinero.
                     </p>
-                    <div class="faq_socialHelp">
-                      <div>
-                        <a href="mailto:consultas@ganancias-deportivas.com.ar"><img src="/Images/mail_icon.png"
-                            alt=""></a>
-                      </div>
-                      <div>
-                        <a href="https://api.whatsapp.com/send?phone=542604375615" target="_blank">
-                          <img src="Images/whatsapp_icon.png" alt="whatsapp contact">
-                        </a>
-                      </div>
-                      <div>
-                        <a href="https://www.facebook.com/BLOG-De-Ganancias-Argentina-103371018178827/?modal=admin_todo_tour&notif_id=1599607581917840&notif_t=page_invite&ref=notif"
-                          target="_blank">
-                          <img src="Images/facebook_icon.png" alt="facebook contact">
-                        </a>
-                      </div>
+                    <hr>
+                    <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
                     </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseSeven"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
@@ -501,21 +542,32 @@
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
                       data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
-                      Que hace la empresa con el dinero?
+                      Cuánto tiempo necesito dedicar a la inversión?
                     </button>
                   </h2>
                 </div>
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
                   data-parent="#accordionExample2">
                   <div class="card-body">
-                    Realiza apuestas deportivas bajo las direccion de un equipo propio de expertos analistas,
-                    ese impecable labor viene generando resultados elevados desde hace años, con ello se
-                    garantiza la
-                    sostenibilidad del negocio.
+                    <p>
+                      Solo se necesita tiempo para hacer las cuentas en RoyalQ, Binance y configurar el bot con la
+                      estrategia elegida y nada más. El bot trabaja automáticamente hasta que se decida cambiar la moneda o
+                      estrategia elegida.</p>
+                    <hr>
+                    <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                    </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseEight"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
@@ -524,29 +576,32 @@
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
                       data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
-                      Donde esta ubicada la empresa?
+                      Cual es el precio del bot?
                     </button>
                   </h2>
                 </div>
                 <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample2">
                   <div class="card-body">
-                    <p>La empresa es Europea. Legalmente se encuentra acentada en Costa Rica. Actualmente cuenta
-                      con
-                      tres presidentes fundadores:</p>
-                    <p class="p_center">
-                      CEO de Ganancias Deportivas<br>
-                      <strong>Miguel Rodríguez Acosta</strong><br>
-
-                      Global Master<br>
-                      <strong>Gino Ferruggiaro</strong><br>
-
-                      Distribuidor<br>
-                      <strong>Antonio Manuel Buendía</strong>
+                    <p>Precio del bot y comisiones: 120 dólares anuales para activarlo, luego el bot se queda con el 20%
+                      de la ganancia que obtienen los usuarios, y también Binance cobra una comisión pequeña por las
+                      compras y ventas que haga el bot en la billetera spot de Binance, esa comisión se reduce mucho si
+                      se usa BNB (el token de Binance) para pagar las comisiones.
                     </p>
+                    <hr>
+                    <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                    </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseNine"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
@@ -555,7 +610,7 @@
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left" type="button" data-toggle="collapse"
                       data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
-                      Cuanta plata en pesos $$$ necesito para empezar?
+                      Cuanto dinero necesito para comenzar la inversion?
                     </button>
                   </h2>
                 </div>
@@ -563,31 +618,27 @@
                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample2">
                   <div class="card-body">
                     <p>
-                      Esta respuesta cambia todos los dias junto con el valor de nuestra moneda. Ultimamente la
-                      inversion inicial ha ido subiendo.
-                      Te pedimos que nos contactes y te ayudamos con una simulacion de dinero.
+                      La inversion inicial son aproximadamente 500 dolares.
+                      <ol>
+                        <li>Recordá que el precio del bot son 120 dolares ( Se paga anualmente y no es parte de la inversion)</li>
+                        <li>Para que el bot pueda operar se necesita una inversion inicial de 300 dolares en Binance.</li>
+                      </ol>
                     </p>
-                    <div class="faq_socialHelp">
-                      <div>
-                        <a href="mailto:consultas@ganancias-deportivas.com.ar"><img src="/Images/mail_icon.png"
-                            alt=""></a>
-                      </div>
-                      <div>
-                        <a href="https://api.whatsapp.com/send?phone=542604375615" target="_blank">
-                          <img src="Images/whatsapp_icon.png" alt="whatsapp contact">
-                        </a>
-                      </div>
-                      <div>
-                        <a href="https://www.facebook.com/BLOG-De-Ganancias-Argentina-103371018178827/?modal=admin_todo_tour&notif_id=1599607581917840&notif_t=page_invite&ref=notif"
-                          target="_blank">
-                          <img src="Images/facebook_icon.png" alt="facebook contact">
-                        </a>
-                      </div>
+                    <hr>
+                    <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
                     </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseTen"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
@@ -606,11 +657,21 @@
                     <p>
                       La respuesta en NO.
                     </p>
-                    <img src="/Images/no_image.png" alt="imagen de no">
+                    <hr>
+                    <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                    </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseEleven"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
@@ -627,15 +688,26 @@
                   data-parent="#accordionExample2">
                   <div class="card-body">
                     <p>
-                      No existen regulaciones en nuestro pais sobre la compra/venta de BITCOIN a traves de tu
-                      billetera
-                      virtual.
+                      Es totalmente legal.
+                      No existen prohibiciones en nuestro pais sobre la compra/venta de CRIPTOMONEDAS a traves de bots, plataformas de 
+                      intercambio o billeteras virtuales.
                     </p>
-                    <img src="/Images/no_image.png" alt="imagen de no">
+                    
+                    <hr>
+                    <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                    </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseTwelve"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
@@ -647,7 +719,7 @@
   </div>
   <!--  Contact section-->
   <div class="container-fluid" style="padding-top:30px;padding-bottom:20px;">
-    <h2 id="contactUs" class="text-center">Contacto</h2>
+    <h2 id="contactUs" class="text-center font-title">Contacto</h2>
     <div class="row justify-content-center">
       <form action="./index.php" method="POST">
         <div class="col-sm-12 col-lg-8">
