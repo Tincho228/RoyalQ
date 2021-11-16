@@ -163,9 +163,9 @@
           seguir</h2>
         <div class="row text-center" style="margin-bottom:30px;">
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-            <div class="card"
+            <div class="card card-step-bg"
               style="width: 18rem;margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(255 193 7);">
-              <i class="fab fa-bitcoin text-warning" style="font-size:50px; margin-top:20px; "></i>
+              <i class="fab fa-bitcoin text-warning" style="font-size:50px; margin-top:20px;"></i>
               <div class="card-body">
                 <h5 class="card-title">Binance</h5>
                 <p class="card-text">Crea tu cuenta totalmente gratis con este link y obtené un <span
@@ -175,10 +175,10 @@
                 <a href="https://accounts.binance.com/es-LA/register?ref=<?php if(isset($active_user['user_binance_link'])){echo $active_user['user_binance_link'];} ?>"
                   class="btn  btn-warning text-dark" target="_blank" style="border-radius:25px;">Registrate</a>
               </div>
-            </div></i>
+            </div>
           </div>
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-            <div class="card"
+            <div class="card  card-step-bg"
               style="width: 18rem; margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(23 162 184 / 59%)">
               <i class="fas fa-robot text-info" style="font-size:50px; margin-top:20px"></i>
               <div class="card-body">
@@ -190,7 +190,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-            <div class="card"
+            <div class="card card-step-bg"
               style="width: 18rem;margin:20px; border-radius:25px ; box-shadow:8px 7px 20px rgb(112 48 160);">
               <i class="fas fa-link" style="font-size:50px; margin-top:20px; color:rgb(112 48 160)"></i>
               <div class="card-body">
@@ -205,7 +205,7 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="card text-center"
+          <div class="card text-center  card-step-bg"
             style="width: 18rem;margin:20px; border-radius:25px ; box-shadow:8px 7px 20px black;">
             <i class="fas fa-user-tie" style="font-size:50px; margin-top:20px; color:black"></i>
             <div class="card-body">
@@ -273,7 +273,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <div class="accordion" id="accordionExample">
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingOne">
                   <h2 class="mb-0">
                     <button class="btn btn-block  text-left collapsed" type="button" data-toggle="collapse"
@@ -283,7 +283,7 @@
                   </h2>
                 </div>
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p><strong>Binance</strong> es una plataforma de intercambio de criptomonedas que actualmente es la
                       más grande del mundo
                       en términos de volumen de comercio diario de criptomonedas.
@@ -314,7 +314,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingTwo">
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
@@ -324,7 +324,7 @@
                   </h2>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p>
                       Tus ganancias pueden visualizarse de dos maneras: <br>
                       <ol>
@@ -352,7 +352,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingThree">
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
@@ -362,7 +362,7 @@
                   </h2>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p>
                       El dinero siempre estará seguro dentro Binance, el cual cuenta con varios niveles de seguridad
                       para proteger tus datos.<br>
@@ -395,7 +395,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingFour">
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left" type="button" data-toggle="collapse"
@@ -406,7 +406,7 @@
                 </div>
 
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p>Un 10 % mensual en dólares dependiendo del mercado</p>
                     <hr>
                     <div>
@@ -426,7 +426,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingFive">
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
@@ -436,7 +436,7 @@
                   </h2>
                 </div>
                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p>No hay riesgo de perder el dinero porque el bot opera en la billetera spot de Binance, no en
                       futuros. En caso de que una moneda baje mucho, hay que esperar a que recupere el precio. De todas
                       maneras el bot sigue operando y obteniendo ganancias aunque el precio baje mucho.
@@ -459,7 +459,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingSix">
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
@@ -469,7 +469,7 @@
                   </h2>
                 </div>
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p>Por supuesto tenes la posibilidad de constuir tu red. Se obtienen 30 dólares por cada referido y un 2 % de la ganancia que
                       obtiene cada asociado.<br>
                       Mirá el turorial que explica como opera la red y sus beneficios.
@@ -497,7 +497,7 @@
           </div>
           <div class="col-sm-12 col-md-6">
             <div class="accordion" id="accordionExample2">
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingSeven">
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
@@ -508,7 +508,7 @@
                 </div>
                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
                   data-parent="#accordionExample2">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p>No dudes en contactarnos para ayudarte en lo que necesites. Contactanos por mensaje
                       privado,
                       whatsapp, o mail.
@@ -537,7 +537,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingEight">
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
@@ -548,7 +548,7 @@
                 </div>
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
                   data-parent="#accordionExample2">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p>
                       Solo se necesita tiempo para hacer las cuentas en RoyalQ, Binance y configurar el bot con la
                       estrategia elegida y nada más. El bot trabaja automáticamente hasta que se decida cambiar la moneda o
@@ -571,7 +571,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingNine">
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
@@ -581,7 +581,7 @@
                   </h2>
                 </div>
                 <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample2">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p>Precio del bot y comisiones: 120 dólares anuales para activarlo, luego el bot se queda con el 20%
                       de la ganancia que obtienen los usuarios, y también Binance cobra una comisión pequeña por las
                       compras y ventas que haga el bot en la billetera spot de Binance, esa comisión se reduce mucho si
@@ -605,7 +605,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingTen">
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left" type="button" data-toggle="collapse"
@@ -616,7 +616,7 @@
                 </div>
 
                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample2">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p>
                       La inversion inicial son aproximadamente 500 dolares.
                       <ol>
@@ -642,7 +642,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingEleven">
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
@@ -653,7 +653,7 @@
                 </div>
                 <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven"
                   data-parent="#accordionExample2">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p>
                       La respuesta en NO.
                     </p>
@@ -675,7 +675,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="margin-bottom:5px;">
+              <div class="card card-step" style="margin-bottom:5px;">
                 <div class="card-header" id="headingTwelve">
                   <h2 class="mb-0">
                     <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
@@ -686,7 +686,7 @@
                 </div>
                 <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve"
                   data-parent="#accordionExample2">
-                  <div class="card-body">
+                  <div class="card-body card-step-bg">
                     <p>
                       Es totalmente legal.
                       No existen prohibiciones en nuestro pais sobre la compra/venta de CRIPTOMONEDAS a traves de bots, plataformas de 

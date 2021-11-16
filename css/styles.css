@@ -88,12 +88,10 @@ html {
 .card-header button {
     color:whitesmoke !important;
 }
-.card {
+.card-step {
     background-color:#00000026 !important;
-    border:1px solid whitesmoke !important;
-    border-radius:10px !important;
 }
-.card-body {
+.card-step-bg {
     background-color:whitesmoke !important;
 }
 
