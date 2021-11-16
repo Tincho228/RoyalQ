@@ -39,7 +39,8 @@
         <h1 class="animate__animated animate__fadeInUp display-4">Royal Q Robot</h1>
         <h1 class="animate__animated animate__fadeInUp">Trade <span
             style="color:#ffd85d; font-weight:bold">Binance</span></h1>
-        <a href="https://raqsy.com/s/<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_royal_link'];} ?>" target="_blank" type="button" class="btn btn-lg btn-violet font-body" style="margin-top:25px;">Registrate
+        <a href="https://raqsy.com/s/<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_royal_link'];} ?>"
+          target="_blank" type="button" class="btn btn-lg btn-violet font-body" style="margin-top:25px;">Registrate
           Ahora</a>
       </div>
     </div>
@@ -162,7 +163,6 @@
           seguir</h2>
         <div class="row text-center" style="margin-bottom:30px;">
           <div class="col-sm-12 col-md-4 justify-content-center d-flex">
-
             <div class="card"
               style="width: 18rem;margin:20px; border-radius:25px; box-shadow:8px 7px 20px rgb(255 193 7);">
               <i class="fab fa-bitcoin text-warning" style="font-size:50px; margin-top:20px; "></i>
@@ -172,8 +172,8 @@
                     style="font-weight:bold; font-size:20px">10%</span> de descuento en comisiones. Ingresá y retirá tu
                   dinero las
                   <strong>24 hs</strong></p>
-                <a href="https://accounts.binance.com/es-LA/register?ref=<?php if(isset($active_user['user_binance_link'])){echo $active_user['user_binance_link'];} ?>" class="btn  btn-warning text-dark"
-                 target="_blank" style="border-radius:25px;">Registrate</a>
+                <a href="https://accounts.binance.com/es-LA/register?ref=<?php if(isset($active_user['user_binance_link'])){echo $active_user['user_binance_link'];} ?>"
+                  class="btn  btn-warning text-dark" target="_blank" style="border-radius:25px;">Registrate</a>
               </div>
             </div></i>
           </div>
@@ -184,8 +184,8 @@
               <div class="card-body">
                 <h5 class="card-title">Royal Q</h5>
                 <p class="card-text">Crea tu cuenta gratuita en RoyalQ Bot.</p>
-                <a href="https://raqsy.com/s/<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_royal_link'];} ?>" target="_blank" class="btn btn-info"
-                  style="border-radius:25px;">Registrate</a>
+                <a href="https://raqsy.com/s/<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_royal_link'];} ?>"
+                  target="_blank" class="btn btn-info" style="border-radius:25px;">Registrate</a>
               </div>
             </div>
           </div>
@@ -196,7 +196,7 @@
               <div class="card-body">
                 <h5 class="card-title">Vinculá</h5>
                 <p class="card-text">Segui nuestros tutoriales, activá y vincula el bot para comenzar a trabajar
-                  </p>
+                </p>
                 <a href="#contactUs" class="btn btn-info"
                   style="border-radius:25px; background-color:rgb(112 48 160)">Vinculá tu
                   cuenta</a>
@@ -211,106 +211,461 @@
             <div class="card-body">
               <h5 class="card-title">Soporte</h5>
               <p class="card-text">Pedi la ayuda de un asesor.</p>
-              <a data-toggle="modal" data-target="#contact-modal" class="btn btn-dark text-light"  style="border-radius:25px;">Solicita
+              <a data-toggle="modal" data-target="#contact-modal" class="btn btn-dark text-light"
+                style="border-radius:25px;">Solicita
                 ayuda</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  <!-- Services -->
+  <div class="container-fluid">
+    <div class="row justify-content-center" style="padding: 30px 0px">
+      <div class="col-sm-12 col-lg-8 text-center">
+        <h2 class="text-center" style="margin-bottom: 30px;">Nuestros Servicios</h2>
+        <P class="text-center" style="margin-bottom: 40px;">Te ofrecemos</P>
+        <div class="row">
+          <div class="col-sm-4">
+            <i class="fas fa-power-off text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
+            <h4>Soporte</h4>
+            <p>Instalacion y programacion remota las 24 hs.</p>
+          </div>
+          <div class="col-sm-4">
+            <i class="fas fa-heart text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
+            <h4>Capacitacion</h4>
+            <p>Las mejores estrategias personalizadas</p>
+          </div>
+          <div class="col-sm-4">
+            <i class="fas fa-lock text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
+            <h4>Asesoramiento</h4>
+            <p>LLevar la inversion a un nivel superior</p>
+          </div>
+        </div>
+        <br><br>
+        <div class="row">
+          <div class="col-sm-4">
+            <i class="fas fa-leaf text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
+            <h4>Grupos</h4>
+            <p>Tips y estrategias de los mejores Traders</p>
+          </div>
+          <div class="col-sm-4">
+            <i class="fas fa-certificate text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
+            <h4>Seguridad</h4>
+            <p>Proteccion sobre la inversion</p>
+          </div>
+          <div class="col-sm-4">
+            <i class="fas fa-wrench text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
+            <h4>Control</h4>
+            <p>Observá tus ganancias diarias desde la app</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  FAQ section -->
+  <div class="container-fluid bg-highlight">
+    <h2 id="faq" class="class-center text-center text-light font-title" style="padding:30px 0px">Preguntas Frecuentes</h2>
+    <div class="row justify-content-center" style="padding:30px 0px">
+      <div class="col-sm-12 col-lg-8">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="accordion"  id="accordionExample">
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block  text-left collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Que es una billetera virtual? Es gratuita?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Una <span>billetera virtual</span> es un medio por el cual se puede guardar,
+                      enviar y recibir cualquier moneda o datos. Realizar la cuenta es totalmente gratuito y una
+                      manera
+                      segura de guardar fondos.
+                      Elegi la que mas te guste, te mostramos las mas importantes.
+                    </p>
+                    <div class="wallets_box">
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                    </div>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      Como puedo ver mis ganancias?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Solo tenés que ingresar en la <span>pagina WEB </span>de la plataforma desde la compu o
+                      tu
+                      celular con tu usuario y contraseña.
+                      Disponible todos los dias, las 24 horas.
+                    </p>
+                    <img class="faq_cellphone" src="/Images/cell_phone.jpg" alt="web movil">
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                      Mi dinero esta seguro? Cuándo lo puedo retirar y cómo?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>EL dia 5 y el 20 de cada mes estan habilitados para realizar retiros. Todo se realiza de
+                      forma
+                      online, sin necesidad de moverte
+                      de tu casa.
+                      Los retiros son recibidos en la billetera virtual de tu elección, con tu usuario y
+                      contraseña.
+                      Para recibir tutoriales con ejemplos de retiro o si tenes preguntas, no dudes en
+                      consultarnos.</p>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left" type="button" data-toggle="collapse"
+                      data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                      O sea que no tengo que hacer nada para ganar el 20%?
+                    </button>
+                  </h2>
+                </div>
 
-    <!-- Services -->
-    <div class="container-fluid">
-      <div class="row justify-content-center" style="padding: 30px 0px">
-        <div class="col-sm-12 col-lg-8 text-center">
-          <h2 class="text-center" style="margin-bottom: 30px;">Nuestros Servicios</h2>
-          <P class="text-center" style="margin-bottom: 40px;">Te ofrecemos</P>
-          <div class="row">
-            <div class="col-sm-4">
-              <i class="fas fa-power-off text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
-              <h4>Soporte</h4>
-              <p>Instalacion y programacion remota las 24 hs.</p>
-            </div>
-            <div class="col-sm-4">
-              <i class="fas fa-heart text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
-              <h4>Capacitacion</h4>
-              <p>Las mejores estrategias personalizadas</p>
-            </div>
-            <div class="col-sm-4">
-              <i class="fas fa-lock text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
-              <h4>Asesoramiento</h4>
-              <p>LLevar la inversion a un nivel superior</p>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Exacto!! Tus ganancias dependen del tiempo y la cantidad del paquete que inviertas.</p>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseFour"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                      Si la empresa no gana dinero, yo también pierdo?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Quedate tranquilo por dos razones:<br>
+                      1- Por declaracion privada de la empresa, la misma se compromete al pago diario
+                      acumulativo del
+                      interés. No perdés un centavo.<br>
+                      2- Los balances mensuales de la empresa durante los dos años han sido en promedio del 60%.
+                    </p>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseFive"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingSix">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                      Hay algún beneficio además del 20%?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>El 20% es solo el comienzo! Además de poder triplicar tu inversion en 6 meses, podes
+                      ganar
+                      intereses adicionales
+                      de mas del 6 porciento por invitar personas al negocio. Tenes premios por nivel y
+                      organizacion.
+                    </p>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseSix"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <br><br>
-          <div class="row">
-            <div class="col-sm-4">
-              <i class="fas fa-leaf text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
-              <h4>Grupos</h4>
-              <p>Tips y estrategias de los mejores Traders</p>
-            </div>
-            <div class="col-sm-4">
-              <i class="fas fa-certificate text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
-              <h4>Seguridad</h4>
-              <p>Proteccion sobre la inversion</p>
-            </div>
-            <div class="col-sm-4">
-              <i class="fas fa-wrench text-highlight" style="font-size: 40px; margin-bottom:20px;"></i>
-              <h4>Control</h4>
-              <p>Observá tus ganancias diarias desde la app</p>
+          <div class="col-sm-12 col-md-6">
+            <div class="accordion" id="accordionExample2">
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingSeven">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                      No se nada de tecnología, me pueden ayudar con esto?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                  data-parent="#accordionExample2">
+                  <div class="card-body">
+                    <p>No dudes en contactarnos para ayudarte en lo que necesites. Contactanos por mensaje
+                      privado,
+                      whatsapp, o mail.
+                      Actualmente estamos ayudando a muchas personas a que no pierdan su dinero con la
+                      devaluacion.
+                      Siempre hay manera de darle curso a tus ganancias. Tu patrocinador estará para ayudarte a
+                      entender
+                      el negocio y
+                      tambien a asegurar tu dinero.
+                    </p>
+                    <div class="faq_socialHelp">
+                      <div>
+                        <a href="mailto:consultas@ganancias-deportivas.com.ar"><img src="/Images/mail_icon.png"
+                            alt=""></a>
+                      </div>
+                      <div>
+                        <a href="https://api.whatsapp.com/send?phone=542604375615" target="_blank">
+                          <img src="Images/whatsapp_icon.png" alt="whatsapp contact">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://www.facebook.com/BLOG-De-Ganancias-Argentina-103371018178827/?modal=admin_todo_tour&notif_id=1599607581917840&notif_t=page_invite&ref=notif"
+                          target="_blank">
+                          <img src="Images/facebook_icon.png" alt="facebook contact">
+                        </a>
+                      </div>
+                    </div>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseSeven"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingEight">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                      Que hace la empresa con el dinero?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
+                  data-parent="#accordionExample2">
+                  <div class="card-body">
+                    Realiza apuestas deportivas bajo las direccion de un equipo propio de expertos analistas,
+                    ese impecable labor viene generando resultados elevados desde hace años, con ello se
+                    garantiza la
+                    sostenibilidad del negocio.
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseEight"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingNine">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                      Donde esta ubicada la empresa?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample2">
+                  <div class="card-body">
+                    <p>La empresa es Europea. Legalmente se encuentra acentada en Costa Rica. Actualmente cuenta
+                      con
+                      tres presidentes fundadores:</p>
+                    <p class="p_center">
+                      CEO de Ganancias Deportivas<br>
+                      <strong>Miguel Rodríguez Acosta</strong><br>
+
+                      Global Master<br>
+                      <strong>Gino Ferruggiaro</strong><br>
+
+                      Distribuidor<br>
+                      <strong>Antonio Manuel Buendía</strong>
+                    </p>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseNine"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingTen">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left" type="button" data-toggle="collapse"
+                      data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                      Cuanta plata en pesos $$$ necesito para empezar?
+                    </button>
+                  </h2>
+                </div>
+
+                <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample2">
+                  <div class="card-body">
+                    <p>
+                      Esta respuesta cambia todos los dias junto con el valor de nuestra moneda. Ultimamente la
+                      inversion inicial ha ido subiendo.
+                      Te pedimos que nos contactes y te ayudamos con una simulacion de dinero.
+                    </p>
+                    <div class="faq_socialHelp">
+                      <div>
+                        <a href="mailto:consultas@ganancias-deportivas.com.ar"><img src="/Images/mail_icon.png"
+                            alt=""></a>
+                      </div>
+                      <div>
+                        <a href="https://api.whatsapp.com/send?phone=542604375615" target="_blank">
+                          <img src="Images/whatsapp_icon.png" alt="whatsapp contact">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://www.facebook.com/BLOG-De-Ganancias-Argentina-103371018178827/?modal=admin_todo_tour&notif_id=1599607581917840&notif_t=page_invite&ref=notif"
+                          target="_blank">
+                          <img src="Images/facebook_icon.png" alt="facebook contact">
+                        </a>
+                      </div>
+                    </div>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseTen"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingEleven">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+                      Tengo que trabajar o vender algo?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven"
+                  data-parent="#accordionExample2">
+                  <div class="card-body">
+                    <p>
+                      La respuesta en NO.
+                    </p>
+                    <img src="/Images/no_image.png" alt="imagen de no">
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseEleven"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom:5px;">
+                <div class="card-header" id="headingTwelve">
+                  <h2 class="mb-0">
+                    <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+                      Se pagan impuestos del gobierno? Es legal?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve"
+                  data-parent="#accordionExample2">
+                  <div class="card-body">
+                    <p>
+                      No existen regulaciones en nuestro pais sobre la compra/venta de BITCOIN a traves de tu
+                      billetera
+                      virtual.
+                    </p>
+                    <img src="/Images/no_image.png" alt="imagen de no">
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseTwelve"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!--  Contact section-->
-    <div class="container-fluid bg-light" style="padding-top:30px;padding-bottom:20px;">
-      <h2 id="contactUs" class="text-center">Contacto</h2>
-      <div class="row justify-content-center">
-        <form action="./index.php" method="POST">
-          <div class="col-sm-12 col-lg-8">
-            <div class="row">
-              <div class="col-sm-5">
-                <p>Un asesor te respondera a la brevedad</p>
-                <p><span class="glyphicon glyphicon-map-marker"></span> Argentina, AR</p>
-                <p><span class="glyphicon glyphicon-envelope"></span> consultas@royalq-mundial.com</p>
-              </div>
-              <div class="col-sm-7">
-                <div class="row">
-                  <div class="col-sm-6 form-group">
-                    <label for="name">Nombre completo</label>
-                    <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
-                  </div>
-                  <div class="col-sm-6 form-group">
-                    <label for="email">Email</label>
-                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                  </div>
-                  <div class="col-sm-6 form-group">
-                    <label for="phone">Telefono</label>
-                    <input class="form-control" id="phone" name="phone" placeholder="Celular" type="text" required>
-                  </div>
-                </div>
-
-              </div>
-
+  </div>
+  <!--  Contact section-->
+  <div class="container-fluid" style="padding-top:30px;padding-bottom:20px;">
+    <h2 id="contactUs" class="text-center">Contacto</h2>
+    <div class="row justify-content-center">
+      <form action="./index.php" method="POST">
+        <div class="col-sm-12 col-lg-8">
+          <div class="row">
+            <div class="col-sm-5">
+              <p>Un asesor te respondera a la brevedad</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Argentina, AR</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> consultas@royalq-mundial.com</p>
             </div>
-            <label for="mensaje">Mensaje</label>
-            <textarea class="form-control" id="comments" name="message" placeholder="Escribinos tu mensaje" rows="5"
-              required></textarea>
-
-            <div class="row">
-              <div class="col-sm-12 form-group">
-                <button class="btn btn-dark pull-right" type="submit" style="margin-top:10px;">Enviar</button>
-                <!-- Add the action name - value pair -->
-                <input type="hidden" name="action" value="contact">
+            <div class="col-sm-7">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <label for="name">Nombre completo</label>
+                  <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <label for="email">Email</label>
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <label for="phone">Telefono</label>
+                  <input class="form-control" id="phone" name="phone" placeholder="Celular" type="text" required>
+                </div>
               </div>
+
             </div>
 
           </div>
-        </form>
-      </div>
+          <label for="mensaje">Mensaje</label>
+          <textarea class="form-control" id="comments" name="message" placeholder="Escribinos tu mensaje" rows="5"
+            required></textarea>
+
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-dark pull-right" type="submit" style="margin-top:10px;">Enviar</button>
+              <!-- Add the action name - value pair -->
+              <input type="hidden" name="action" value="contact">
+            </div>
+          </div>
+
+        </div>
+      </form>
     </div>
+  </div>
   </div>
 
   <!--  Footer  -->

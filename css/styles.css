@@ -80,6 +80,17 @@ html {
     font-size: 19px;
     text-align:left;
 }
+.card-header button {
+    color:whitesmoke !important;
+}
+.card {
+    background-color:#f5f5f53b !important;
+    border:1px solid whitesmoke !important;
+    border-radius:10px !important;
+}
+.card-body {
+    background-color:whitesmoke !important;
+}
 
 /* ANIMATIONS */
 .blink {
