@@ -266,39 +266,50 @@
   </div>
   <!--  FAQ section -->
   <div class="container-fluid bg-highlight">
-    <h2 id="faq" class="class-center text-center text-light font-title" style="padding:30px 0px">Preguntas Frecuentes</h2>
+    <h2 id="faq" class="class-center text-center text-light font-title" style="padding:30px 0px">Preguntas Frecuentes
+    </h2>
     <div class="row justify-content-center" style="padding:30px 0px">
       <div class="col-sm-12 col-lg-8">
         <div class="row">
           <div class="col-sm-12 col-md-6">
-            <div class="accordion"  id="accordionExample">
+            <div class="accordion" id="accordionExample">
               <div class="card" style="margin-bottom:5px;">
                 <div class="card-header" id="headingOne">
                   <h2 class="mb-0">
                     <button class="btn btn-block  text-left collapsed" type="button" data-toggle="collapse"
                       data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Que es una billetera virtual? Es gratuita?
+                      Que es Binance y para qué la necesito?
                     </button>
                   </h2>
                 </div>
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                   <div class="card-body">
-                    <p>Una <span>billetera virtual</span> es un medio por el cual se puede guardar,
-                      enviar y recibir cualquier moneda o datos. Realizar la cuenta es totalmente gratuito y una
+                    <p><strong>Binance</strong> es una plataforma de intercambio de criptomonedas que actualmente es la
+                      más grande del mundo
+                      en términos de volumen de comercio diario de criptomonedas.
+                      Es un medio por el cual se puede guardar,
+                      enviar y recibir cualquier moneda o datos.
+                      Realizar la cuenta es totalmente gratuito y una
                       manera
-                      segura de guardar fondos.
-                      Elegi la que mas te guste, te mostramos las mas importantes.
+                      segura de guardar tus fondos.
+
                     </p>
-                    <div class="wallets_box">
+                    <a href="https://accounts.binance.com/es-LA/register?ref=<?php if(isset($active_user['user_binance_link'])){echo $active_user['user_binance_link'];} ?>"
+                      class="btn  btn-violet" target="_blank" style="margin:10px 0px ;">Crea tu cuenta en Binance</a>
+                    <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
                       <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
                         target="_blank">
                         <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
                       </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
                     </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
@@ -318,11 +329,20 @@
                       celular con tu usuario y contraseña.
                       Disponible todos los dias, las 24 horas.
                     </p>
-                    <img class="faq_cellphone" src="/Images/cell_phone.jpg" alt="web movil">
+                    <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                    </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseTwo"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
@@ -337,18 +357,24 @@
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                   <div class="card-body">
-                    <p>EL dia 5 y el 20 de cada mes estan habilitados para realizar retiros. Todo se realiza de
-                      forma
-                      online, sin necesidad de moverte
-                      de tu casa.
-                      Los retiros son recibidos en la billetera virtual de tu elección, con tu usuario y
-                      contraseña.
+                    <p>Podes retirar todos los dias, las 24 horas y sin prohibiciones. El dinero se envia a tu caja de ahorro
+                      vinculada al banco de tu eleccion.
                       Para recibir tutoriales con ejemplos de retiro o si tenes preguntas, no dudes en
                       consultarnos.</p>
+                      <div>
+                      <p style="margin-bottom:5px; margin-top:10px;">Contactate con nosotros</p>
+                      <a href="https://api.whatsapp.com/send?phone=54<?php if(isset($active_user['user_royal_link'])){echo $active_user['user_cellphone'];} ?>"
+                        target="_blank">
+                        <i class="fab fa-whatsapp text-success" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                      <a target="_blank" data-toggle="modal" data-target="#contact-modal">
+                        <i class="far fa-envelope text-dark" style="font-size: 40px; margin:0px 5px;"></i>
+                      </a>
+                    </div>
                     <button class="btn" type="button" data-toggle="collapse" data-target="#collapseThree"
-                      aria-expanded="false" aria-controls="collapseExample">
-                      Cerrar
-                    </button>
+                      aria-expanded="false" aria-controls="collapseExample" style="margin: 10px auto; width: 50%;
+                                                                                    display: block;">
+                      <i class="fas fa-window-close"></i> Cerrar</button>
                   </div>
                 </div>
               </div>
