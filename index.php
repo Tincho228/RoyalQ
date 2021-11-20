@@ -194,7 +194,7 @@ switch ($action) {
         $email_from = "Sitio Web";
         $email_subject = "Consulta de ".$name;
         $email_body = "Nombre: $name.\n\n";
-        $email_body .="Telefono: $phone \r\n";
+        $email_body .="Telefono: $phone \r\n".
         "Email: $email.\n".
         "Mensaje: $message.\n"; 
         $to = "consultas@royalq-mundial.com";
