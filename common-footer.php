@@ -43,6 +43,9 @@
             <a href="https://www.facebook.com/BLOG-De-Ganancias-Argentina-103371018178827/?modal=admin_todo_tour&notif_id=1599607581917840&notif_t=page_invite&ref=notif" target="_blank">
               <i class="fab fa-facebook text-light" style="font-size: 40px;margin:0px 5px;"></i>
             </a>
+            <a href="https://www.instagram.com/royal_q_worldwide/" target="_blank">
+              <i class="fab fa-instagram text-light" style="font-size: 40px;margin:0px 5px;"></i>
+            </a>
           </div>
         </div>
       </div>
